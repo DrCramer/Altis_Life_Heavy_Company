@@ -4556,7 +4556,7 @@
 			<French>Vous avez traité %1 en %2</French>
 			<Italian>Hai processato %1 in %2</Italian>
 			<Portuguese>Você trasformou %1 em %2</Portuguese>
-			<Russian>Вы обработали % 1 в % 2</Russian>
+			<Russian>Вы обработали %1 в %2</Russian>
 		</Key>
 		<Key ID="STR_Process_Processed2">
 			<Original>You have processed %1 into %2 for $%3</Original>
