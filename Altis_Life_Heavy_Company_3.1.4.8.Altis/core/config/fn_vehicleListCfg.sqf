@@ -43,7 +43,8 @@ switch (_shop) do
 	{
 		_return = 
 		[
-				["B_Quadbike_01_F",2500],
+				["dbo_CIV_ol_bike",500],
+				["dbo_CIV_new_bike",850],
 				["C_Hatchback_01_F",9500],
 				["C_Hatchback_01_sport_F",11500],
 				["C_Offroad_01_F",12500],
@@ -97,8 +98,10 @@ switch (_shop) do
 		_return =
 		[
 			["C_Van_01_box_F",60000],
-			["I_Truck_02_transport_F",75000],
-			["I_Truck_02_covered_F",100000],
+			["DAR_4X4",90000],
+			["I_Truck_02_transport_F",95000],
+			["DAR_MK23",130000],
+			["I_Truck_02_covered_F",150000],
 			["B_Truck_01_transport_F",275000],
 			["O_Truck_03_transport_F",200000],
 			["O_Truck_03_covered_F",250000],
@@ -113,25 +116,36 @@ switch (_shop) do
 	{
 		_return =
 		[
-			["B_Quadbike_01_F",2500],
-			["emu_offroad_d1",20000],
-			["B_G_Offroad_01_F",15000],
-			["emu_offroad_d3",20000],
-			["emu_offroad_t1",20000],
-			["emu_offroad_d2",20000],
-			["emu_offroad_g1",20000],
-			["B_G_Offroad_01_armed_F",2500000],
-			["B_Heli_Light_01_F",325000],
-			["EMU_MH9",325000],
-			["EMU_MH9_camo",325000],
-			["Cha_Mi17_Ins",325000],
+			["B_Quadbike_01_F",15000],
+			["emu_offroad_d1",35000],
+			["B_G_Offroad_01_F",35000],
+			["emu_offroad_d3",35000],
+			["emu_offroad_t1",35000],
+			["emu_offroad_d2",35000],
+			["DAR_M1152",35000],
+			["DAR_M1152Woodland",35000],
+			["DAR_M1151WoodlandUA",55000],
+			["DAR_M1151",85000],
+			["DAR_M1151Woodland",85000],
+			["DAR_MK27",160000],
+			["DAR_MK27T",160000],	
+			["HAFM_BAF_Jackal2_L2A1_D",300000],
+			["HAFM_BAF_Jackal2_L2A1_W",300000],
+			["DAR_MK23A",850000],
+			["DAR_MaxxPro",850000],
+			["DAR_MaxxProDXM",850000],
+			["DAR_MaxxProPlus",850000],
+			["B_Heli_Light_01_F",450000],
+			["EMU_MH9",350000],
+			["EMU_MH9_camo",350000],
+			["Cha_Mi17_Ins",350000],
 			["Cha_Mi17_TK_EP1",5000000]
 		];
 		
 		if(license_civ_rebel) then
 		{
 			_return pushBack
-			["B_G_Offroad_01_armed_F",750000];
+			["B_G_Offroad_01_armed_F",800000];
 		};
 	};
 	
@@ -141,8 +155,6 @@ switch (_shop) do
 			["Jonzie_96_Impala",2]];
 			_return set[count _return,
 			["Jonzie_96_Impala_Unmarked",20000]];
-			_return set[count _return,
-			["Dar_ImpalaPoliceDet",20000]];
 			_return set[count _return,
 			["demian2435_police_car",20000]];
 			_return set[count _return,
@@ -168,15 +180,29 @@ switch (_shop) do
 			_return set[count _return,
 			["Dar_ChargerPoliceStateSlick",20000]];
 			_return set[count _return,
-			["B_MRAP_01_F",200000]];
-			_return set[count _return,
-			["B_MRAP_01_hmg_F",20000]];
-			_return set[count _return,
 			["DAR_ExplorerPolice",20000]];
 			_return set[count _return,
 			["Dar_ExplorerPoliceStealth",20000]];
-
-	};
+			_return set[count _return,
+			["DAR_DAR_02FirebirdSSVPolice",20000]];
+			_return set[count _return,
+			["DAR_M1151_Deploy",40000]];
+			_return set[count _return,
+			["HAFM_BAF_Offroad_D",40000]];
+			_return set[count _return,
+			["HAFM_BAF_Offroad_W",40000]];
+			_return set[count _return,
+			["DAR_MaxxProDeploy",100000]];
+			_return set[count _return,
+			["DAR_MK23AD",100000]];
+			_return set[count _return,
+			["DAR_MK23ADT",100000]];
+			_return set[count _return,
+			["HAFM_BAF_Jackal2_L2A1_D",100000]];
+			_return set[count _return,
+			["HAFM_BAF_Jackal2_L2A1_W",100000]];
+			
+};
 	
 	case "civ_air":
 	{

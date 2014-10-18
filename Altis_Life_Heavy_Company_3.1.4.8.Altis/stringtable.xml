@@ -3830,7 +3830,7 @@
 			<French>Outil de crochetage</French>
 			<Italian>Grimaldello</Italian>
 			<Portuguese>Chave Mestra</Portuguese>
-			<Russian>Лом</Russian>
+			<Russian>Отмычка</Russian>
 		</Key>
 		<Key ID="STR_Item_Rock">
 			<Original>Rock</Original>
@@ -4218,7 +4218,7 @@
 			<French>Il n'y a pas de dynamite sur le coffre?</French>
 			<Italian>Non c'è alcuna carica esplosiva sulla cassaforte</Italian>
 			<Portuguese>Não há nenhum explosivo no cofre.</Portuguese>
-			<Russian>Там нет заряда на своде?</Russian>
+			<Russian>Нет заряда в хранилище?</Russian>
 		</Key>
 		<Key ID="STR_ISTR_Defuse_Process">
 			<Original>Defusing charge...</Original>
@@ -4963,7 +4963,7 @@
 			<French>Ranger le vehicule</French>
 			<Italian>Parcheggia Veicolo</Italian>
 			<Portuguese>Guardar Veículo</Portuguese>
-			<Russian>Магазин авто</Russian>
+			<Russian>Поставить</Russian>
 		</Key>
 		<Key ID="STR_pInAct_SellHouse">
 			<Original>Sell House</Original>
@@ -4999,7 +4999,7 @@
 			<French>Lumières éteintes</French>
 			<Italian>Spegni luci</Italian>
 			<Portuguese>Ligar Luzes</Portuguese>
-			<Russian>Свет Выключить</Russian>
+			<Russian>Выключить Свет</Russian>
 		</Key>
 		<Key ID="STR_pInAct_LightsOn">
 			<Original>Turn Lights On</Original>
@@ -5008,7 +5008,7 @@
 			<French>Lumières allumées</French>
 			<Italian>Accendi luci</Italian>
 			<Portuguese>Apagar Luz</Portuguese>
-			<Russian>Свет Включить</Russian>
+			<Russian>Включить Свет</Russian>
 		</Key>
 		<Key ID="STR_pInAct_DepositToGang">
 			<Original>Deposit To Gang</Original>
@@ -5499,7 +5499,7 @@
 			<French>Prix de sortie:</French>
 			<Italian>Costo di ritiro:</Italian>
 			<Portuguese>Preço para Recuperar:</Portuguese>
-			<Russian>Цена Восстановления:</Russian>
+			<Russian>Восстановление Цена:</Russian>
 		</Key>
 		<Key ID="STR_Shop_Veh_UI_SellP">
 			<Original>Sell Price:</Original>

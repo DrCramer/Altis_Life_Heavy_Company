@@ -42,7 +42,7 @@ _dogRevive =
 	
 		_dog = _unit getvariable "dog";
 		_unit setvariable ["step","go"];
-	
+		_unit setvariable ["step","go"];
 	};
 	
 _dogWhistle =
@@ -54,7 +54,7 @@ _dogWhistle =
 		_idle 		= (_this select 3) select 3;
 		_vehicle 	= (_this select 3) select 4;
 		_sound = ["whistle",_unit, 20] spawn play;
-        hint "Ben, here boy!";
+        hint "Бен, ко мне!";
         sleep 1;
         _unit setvariable ["follow",'false'];
         _tempPos = [(getpos _unit) select 0,((getpos _unit) select 1) + 1,0];
@@ -78,6 +78,7 @@ _dogWhistle =
 				_unit1 setvariable ["order","dead"];
 				_unit setvariable ["action","false"];
 				_unit1 setvariable ["step","go"];
+				_
             };
 			
 		shot_at =
@@ -123,7 +124,7 @@ _dogFollow =
 		_dog	= _unit getvariable "dog";
 		_play	= (_this select 3) select 1;
 		_sound 	= ["dog_one",_dog, 20] spawn _play;
-		hint "Ben, follow!";
+		hint "Бен, за мной!";
 		_unit setvariable ["order","active"];
 		_unit setvariable ["step","go"];
 		_unit setvariable ["follow",'true'];
