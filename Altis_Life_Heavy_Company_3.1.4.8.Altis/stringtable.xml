@@ -3045,7 +3045,7 @@
 			<French>Le coffre de ce véhicule est en cours d'utilisation, une seule personne peut l'utiliser à la fois.</French>
 			<Italian>L'inventario di questo veicolo è in uso, può essere usato solo da una persona alla volta.</Italian>
 			<Portuguese>A mala desse veículo está em uso, somente uma pessoa pode acessar de cada vez.</Portuguese>
-			<Russian>Багажник этого транспортного средства находится в использовании, только один человек может использовать его одновременно.</Russian>
+			<Russian>Багажник этого транспортного средства в данный момент используется, только один игрок может его использовать.</Russian>
 		</Key>
 		<Key ID="STR_MISC_DialogError">
 			<Original>Failed Creating Dialog</Original>
