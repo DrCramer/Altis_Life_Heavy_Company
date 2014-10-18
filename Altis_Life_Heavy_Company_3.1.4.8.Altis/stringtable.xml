@@ -4647,6 +4647,7 @@
 			<French>Respawn Disponible dans: %1</French>
 			<Italian>Respawn disponibile in: $1</Italian>
 			<Portuguese>Respawn Disponível em: %1</Portuguese>
+			<Russian>Респавн будет доступен через: %1</Russian>
 		</Key>
 		<Key ID="STR_Medic_Respawn_2">
 			<Original>You can now respawn</Original>
