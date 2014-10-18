@@ -53,8 +53,8 @@ class Life_impound_menu
 			idc = 2830;
 			text = "$STR_GUI_VehInfo";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
-			x = 0.42; y = 0.26;
-			w = 0.66;
+			x = 0.62; y = 0.26;
+			w = 0.46;
 			h = (1 / 25);
 		};
 		
