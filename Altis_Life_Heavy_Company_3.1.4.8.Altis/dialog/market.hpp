@@ -31,7 +31,7 @@ class Market
 		{
 			colorBackground[] = {0, 0, 0, 0};
 			idc = 39001;
-			text = "";
+			text = "Цены На продажу\покупку";
 			x = 0.1;
 			y = 0.2;
 			w = 0.7;
