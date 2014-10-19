@@ -86816,7 +86816,7 @@ class Mission
 		{
 			position[]={12582.778,34.149235,16394.836};
 			name="oil_trader";
-			text="Обработка нефти";
+			text="Продавец нефти";
 			type="b_unknown";
 			colorName="ColorOrange";
 		};
