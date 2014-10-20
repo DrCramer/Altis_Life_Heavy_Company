@@ -236,7 +236,7 @@
 			<English>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</English>
 			<German>To Be Changed</German>
 			<French>Vous êtes sur le point de vous donner $%1 pour compenser à un autre joueur &lt;br/&gt;&lt;br/&gt; S'il vous plaît donner à cette à la personne vous compensez manuellement</French>
-			<Russian>Потрачено</Russian>
+			<Russian>Вы собираетесь получить $%1 чтобы компенсировать другому игроку &lt;br/&gt;&lt;br/&gt; Вы должны отдать жти деньги игроку вручную</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_Success">
 			<Original>You have added $%1 to your account.</Original>
@@ -250,12 +250,14 @@
 			<English>You can not go above 999999.</English>
 			<German>To Be Changed</German>
 			<French>Vous ne pouvez pas aller au-dessus $999999</French>
+			<Russian>Сумма не может превышать 999999.</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_Amount">
 			<Original>Please type in the amount to compensate.</Original>
 			<English>Please type in the amount to compensate.</English>
 			<German>To Be Changed</German>
 			<French>S'il vous plaît entrer la quantité pour compenser</French>
+			<Russian>Пожалуйста, введите сумму компенсации.</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_Frozen">
 			<Original>You have disabled %1's input.</Original>
