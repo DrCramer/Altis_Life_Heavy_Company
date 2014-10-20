@@ -216,7 +216,7 @@
 			<English>GodMode</English>
 			<German>Gott</German>
 			<French>Dieu</French>
-			<Russian>ГадМод</Russian>
+			<Russian>GodMode</Russian>
 		</Key>
 		<Key ID="STR_Admin_Freeze">
 			<Original>Freeze</Original>
@@ -706,7 +706,7 @@
 			<French>Invitation de Gang</French>
 			<Italian>Invito Gang</Italian>
 			<Portuguese>Convite para Gangue</Portuguese>
-			<Russian>Приглашение в банды</Russian>
+			<Russian>Приглашение в банду</Russian>
 		</Key>
 		<Key ID="STR_Gang_Transfer">
 			<Original>Transfer Gang Leadership</Original>
@@ -715,7 +715,7 @@
 			<French>Transfert du commandement du Gang</French>
 			<Italian>Trasferisci Comando</Italian>
 			<Portuguese>Transferir Liderança</Portuguese>
-			<Russian>Перевести лидерство банды</Russian>
+			<Russian>Передать руководство бандой</Russian>
 		</Key>
 		<Key ID="STR_Gang_UpgradeMax">
 			<Original>Upgrade Maximum Allowed Gang Members</Original>
@@ -724,7 +724,7 @@
 			<French>Augmentation du nombre de membre acceptés</French>
 			<Italian>Aumenta numero massimo membri della Gang</Italian>
 			<Portuguese>Atualizar limite máximo de membros</Portuguese>
-			<Russian>Обновление максимально разрешенного количества пользователей</Russian>
+			<Russian>Увеличение максимально разрешенного количества членов банды</Russian>
 		</Key>
 	</Package>
 	<Package name="Gang_Notification">
@@ -1006,7 +1006,7 @@
 			<French>Max actuelle: %1</French>
 			<Italian>Attuali Max: %1</Italian>
 			<Portuguese>Número máximo atual: %1</Portuguese>
-			<Russian>Максимальный ток: %1</Russian>
+			<Russian>Текущий максимум: %1</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_UpgradeMax">
 			<Original>Upgraded Max: %2</Original>
@@ -1015,7 +1015,7 @@
 			<French>Mise à niveau Max: %2</French>
 			<Italian>Aumento Max: %2</Italian>
 			<Portuguese>Novo número máximo: %2</Portuguese>
-			<Russian>Модернизированный Макс: %2</Russian>
+			<Russian>Увеличенный максимум: %2</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_Price">
 			<Original>Price:</Original>
@@ -1033,7 +1033,7 @@
 			<French>Vous n'avez pas assez d'argent dans votre compte de banque pour mettre à niveau la limite de membre maximale.</French>
 			<Italian>Non hai abbastanza fondi nel tuo conto in banca per aumentare il limite massimo di membri.</Italian>
 			<Portuguese>Você não dinheiro suficiente para para aumentar o limite da gangue.</Portuguese>
-			<Russian>У вас не хватает денег на вашем банковском счете для модернизации слотов банды.</Russian>
+			<Russian>У вас не хватает денег на вашем банковском счете для увеличения количества слотов.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_Current">
 			<Original>Current:</Original>
@@ -1060,7 +1060,7 @@
 			<French>Vous avez mis à niveau à partir de %1 à %2 membres maximum for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
 			<Italian>Hai aumentato i posti massimi da %1 a %2 per &lt;t color='#8cff9b'&gt;€%3&lt;/t&gt;</Italian>
 			<Portuguese>Limite de membros atualizado de %1 para %2 por &lt;t color='#8cff9b'&gt;R$%3&lt;/t&gt;</Portuguese>
-			<Russian>Вы повышен с %1 за %2 Максимальные слота для &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Russian>
+			<Russian>Вы повысили максимальное количество слотов с %1 за %2 для &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_UpgradeCancel">
 			<Original>Upgrade cancelled.</Original>
@@ -1069,7 +1069,7 @@
 			<French>Mise à jour annulée.</French>
 			<Italian>Aumento annullato.</Italian>
 			<Portuguese>Cancelar Upgrade.</Portuguese>
-			<Russian>Обновление отменено.</Russian>
+			<Russian>Улучшение отменено.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_Funds">
 			<Original>Funds:</Original>
@@ -1098,7 +1098,7 @@
 			<French>Garage Vehicule</French>
 			<Italian>Garage Veicoli</Italian>			
 			<Portuguese>Garagem de Veículos</Portuguese>
-			<Russian>Автомобильный гараж</Russian>
+			<Russian>Гараж</Russian>
 		</Key>
 		<Key ID="STR_Garage_GetVehicle">
 			<Original>Get Vehicle</Original>
@@ -1135,7 +1135,7 @@
 			<French>Frais de Stockage</French>
 			<Italian>Costo ritiro</Italian>
 			<Portuguese>Taxa de Armazenamento</Portuguese>
-			<Russian>Плата хранения</Russian>
+			<Russian>Цена хранения</Russian>
 		</Key>
 		<Key ID="STR_Garage_NoVehicles">
 			<Original>No vehicles found in garage.</Original>
@@ -1144,7 +1144,7 @@
 			<French>Aucuns Vehicules.</French>	
 			<Italian>Non hai veicoli nel Garage.</Italian>			
 			<Portuguese>Nenhum veiculo encontrado na garagem.</Portuguese>
-			<Russian>Ни одно транспортного средства не найдено в гараже.</Russian>
+			<Russian>В гараже не найдено ни одного транспортного средства.</Russian>
 		</Key>
 		<Key ID="STR_Garage_CashError">
 			<Original>You don't have $%1 in your bank account</Original>
@@ -1153,7 +1153,7 @@
 			<French>Tu n'as pas %1$ sur ton compte en banque.</French>
 			<Italian>Non hai €%1 nel tuo conto in banca</Italian>
 			<Portuguese>Você não tem R$%1 na sua conta bancária</Portuguese>
-			<Russian>У тебя нету $%1 на вашем банковском счете</Russian>
+			<Russian>У вас нет $%1 на банковском счете</Russian>
 		</Key>
 		<Key ID="STR_Garage_SpawningVeh">
 			<Original>Spawning vehicle please wait...</Original>
@@ -1162,7 +1162,7 @@
 			<French>Mise en place du Véhicule, merci de patienter...</French>
 			<Italian>Creazione veicolo attendere...</Italian>
 			<Portuguese>Obtendo veiculo, aguarde por favor...</Portuguese>
-			<Russian>Спавн автомобиля подождите пожалуйста ...</Russian>
+			<Russian>Создание автомобиля,пожалуйста подождите ...</Russian>
 		</Key>
 		<Key ID="STR_Garage_SQLError_Destroyed">
 			<Original>Sorry but %1 was classified as a destroyed vehicle and was sent tot he scrap yard.</Original>
@@ -1171,7 +1171,7 @@
 			<French>Désolé mais votre %1 à été détruit et vendu à la casse.</French>
 			<Italian>Purtroppo %1 è stato classificato come veicolo distrutto ed è stato mandato allo sfascio.</Italian>
 			<Portuguese>O veículo %1 foi mandado para o ferro velho pois foi classificado como destroido.</Portuguese>
-			<Russian>К сожалению, но %1 был классифицирован как разрушенный автомобиль и был отправлен в свалку.</Russian>
+			<Russian>К сожалению %1 был классифицирован как разрушенный автомобиль и отправлен в свалку.</Russian>
 		</Key>
 		<Key ID="STR_Garage_SQLError_Active">
 			<Original>Sorry but %1 is already active somewhere in the world and cannot be spawned.</Original>
@@ -1180,7 +1180,7 @@
 			<French>Désolé mais votre %1 à déjà été sortit du garage.</French>
 			<Italian>Purtroppo %1 è già presente nella mappa e non può essere ricreato</Italian>
 			<Portuguese>O veículo %1 já está sendo carregado no mapa e não pode ser retirado novamente</Portuguese>
-			<Russian>К сожалению, но %1 уже активно и не может быть найден.</Russian>
+			<Russian>К сожалению %1 уже активен где-то и не может быть создан.</Russian>
 		</Key>
 		<Key ID="STR_Garage_SpawnPointError">
 			<Original>There is already a vehicle on the spawn point. You will be refunded the cost of getting out out.</Original>
@@ -1189,7 +1189,7 @@
 			<French>Il y a déjà un véhicule sur le point de spawn. Le coût de sortie du véhicule vous sera remboursé.</French>
 			<Italian>C'è già un veicolo nel punto di creazione. Verrai rimborsato della spesa appena effettuata.</Italian>
 			<Portuguese>Existe um outro veiculo na area de spawn. Você será reembolsado.</Portuguese>
-			<Russian>Существует уже транспортного средства на точке возрождения. Вам будете возвращены затраты на получение.</Russian>
+			<Russian>На точке возрождения уже присутствует транспортное средство. Вам будут возвращены ваши средства.</Russian>
 		</Key>
 		<Key ID="STR_Garage_SoldCar">
 			<Original>You sold that vehicle for $%1</Original>
@@ -1198,7 +1198,7 @@
 			<French>Vous avez vendu votre véhicule pour $%1</French>
 			<Italian>Hai venduto il veicolo per €%1</Italian>
 			<Portuguese>Você vendeu um veículo por R$%1</Portuguese>
-			<Russian>Ты продал эту машину за $%1</Russian>
+			<Russian>Вы продали эту машину за $%1</Russian>
 		</Key>
 		<Key ID="STR_Garage_Store_NotPersistent">
 			<Original>That vehicle is a rental and cannot be stored in your garage.</Original>
@@ -1207,7 +1207,7 @@
 			<French>Ce véhicule est une location et ne peut pas être stockée dans votre garage.</French>
 			<Italian>Il veicolo è in affitto e non può essere depositato in garage.</Italian>
 			<Portuguese>Esse veículo é alugado e não pode ser armazenado na garagem.</Portuguese>
-			<Russian>Это транспортное средство в аренду, а не могут быть сохранено в вашем гараже.</Russian>
+			<Russian>Это транспортное средство арендовано, и не может быть сохранено в вашем гараже.</Russian>
 		</Key>
 		<Key ID="STR_Garage_Store_NoOwnership">
 			<Original>That vehicle doesn't belong to you therefor you cannot store it in your garage.</Original>
@@ -1216,7 +1216,7 @@
 			<French>Ce véhicule ne vous appartient pas, vous ne pouvez pas le stocker dans votre garage.</French>
 			<Italian>Il veicolo non ti appartiene e quindi non puoi depositarlo nel tuo garage.</Italian>
 			<Portuguese>Você não é o propietário desse veiculo, então você nao poderá guarda-lo na garagem.</Portuguese>
-			<Russian>Это транспортное средство принадлежит не вам поэтому вы не можете хранить его в гараже.</Russian>
+			<Russian>Это транспортное средство принадлежит не вам, поэтому вы не можете хранить его в гараже.</Russian>
 		</Key>
 		<Key ID="STR_Garage_Store_Success">
 			<Original>The vehicle has been stored in your garage.</Original>
@@ -1234,7 +1234,7 @@
 			<French>Le serveur tente de stocker le véhicule ...</French>
 			<Italian>Il server cercando di depositare il veicolo...</Italian>
 			<Portuguese>O servidor está guardando o veiculo...</Portuguese>
-			<Russian>Сервер пытается хранить автомобиль ...</Russian>
+			<Russian>Сервер пытается сохранить автомобиль ...</Russian>
 		</Key>
 		<Key ID="STR_Garage_Selection_Error">
 			<Original>The selection had a error...</Original>
@@ -1243,7 +1243,7 @@
 			<French>La selection à une erreur...</French>
 			<Italian>La selezione ha avuto un errore...</Italian>
 			<Portuguese>Erro ao selecionar....</Portuguese>
-			<Russian>Выбор есть ошибки ...</Russian>
+			<Russian>В выбраном есть ошибка ...</Russian>
 		</Key>
 		<Key ID="STR_Garage_NoNPC">
 			<Original>There isn't a vehicle near the NPC.</Original>
@@ -1252,7 +1252,7 @@
 			<French>Il n'y a pas de véhicule près du PNJ</French>
 			<Italian>Non c'è alcun veicolo vicino all'NPC.</Italian>
 			<Portuguese>Não existe um veículo proximo ao NPC</Portuguese>
-			<Russian>Не существует транспортное средство рядом с NPC.</Russian>
+			<Russian>Транспортное средство рядом с NPC отсутствует.</Russian>
 		</Key>
 	</Package>
 	<Package name="Key_Chain">
@@ -1373,7 +1373,7 @@
 			<French>Sync Data</French>
 			<Italian>Salva Dati</Italian>
 			<Portuguese>Sincronizar Dados</Portuguese>
-			<Russian>Сохранить</Russian>
+			<Russian>Синхронизировать</Russian>
 		</Key>
 	</Package>
 	<Package name="Settings_Menu">
@@ -1402,7 +1402,7 @@
 			<French>Terre:</French>
 			<Italian>Auto:</Italian>
 			<Portuguese>No Carro:</Portuguese>
-			<Russian>В Машине:</Russian>
+			<Russian>В машине:</Russian>
 		</Key>
 		<Key ID="STR_SM_inAir">
 			<Original>In Air:</Original>
@@ -1411,7 +1411,7 @@
 			<French>Air:</French>
 			<Italian>Aria:</Italian>
 			<Portuguese>No Ar:</Portuguese>
-			<Russian>Воздух:</Russian>
+			<Russian>В воздухе:</Russian>
 		</Key>
 		<Key ID="STR_SM_ToolTip1">
 			<Original>View distance while on foot</Original>
@@ -1447,7 +1447,7 @@
 			<French>Tags Joueurs</French>
 			<Italian>Tag Giocatore</Italian>			
 			<Portuguese>Tags de Jogadores</Portuguese>
-			<Russian>Метки</Russian>
+			<Russian>Метки игроков</Russian>
 		</Key>
 		<Key ID="STR_SM_TagsON">
 			<Original>Tags ON</Original>
@@ -1456,7 +1456,7 @@
 			<French>Tags ON</French>
 			<Italian>Tags ON</Italian>
 			<Portuguese>Tags ON</Portuguese>
-			<Russian>ВКЛ</Russian>
+			<Russian>Метки ВКЛ</Russian>
 		</Key>
 		<Key ID="STR_SM_TagsOFF">
 			<Original>Tags OFF</Original>
@@ -1465,7 +1465,7 @@
 			<French>Tags OFF</French>
 			<Italian>Tags OFF</Italian>
 			<Portuguese>Tags OFF</Portuguese>
-			<Russian>ВЫКЛ</Russian>
+			<Russian>Метки ВЫКЛ</Russian>
 		</Key>
 		<Key ID="STR_SM_SC">
 			<Original>Sidechat Settings</Original>
@@ -1483,7 +1483,7 @@
 			<French>Sidechat OFF</French>
 			<Italian>Chat fazione OFF</Italian>
 			<Portuguese>Sidechat OFF</Portuguese>
-			<Russian>ВЫКЛ</Russian>
+			<Russian> Доп. канал ВЫКЛ</Russian>
 		</Key>
 		<Key ID="STR_SM_SCON">
 			<Original>Sidechat ON</Original>
@@ -1492,7 +1492,7 @@
 			<French>Sidechat ON</French>	
 			<Italian>Chat fazione ON</Italian>			
 			<Portuguese>Sidechat ON</Portuguese>
-			<Russian>ВКЛ</Russian>
+			<Russian>Доп. канал ВКЛ</Russian>
 		</Key>
 	</Package>
 	<Package name="Virt_Shop">
@@ -1559,7 +1559,7 @@
 			<French>Point de Spawn Actuel</French>
 			<Italian>Punto di Spawn corrente</Italian>
 			<Portuguese>Ponto de spawn Atual</Portuguese>
-			<Russian>Текущая точка</Russian>
+			<Russian>Текущая точка спауна</Russian>
 		</Key>
 		<Key ID="STR_Spawn_Spawned">
 			<Original>You have spawned at</Original>
@@ -1597,7 +1597,7 @@
 			<French>Contester l'amende</French>
 			<Italian>Rifiuta Multa</Italian>
 			<Portuguese>Recusar Multa</Portuguese>
-			<Russian>Отказаться</Russian>
+			<Russian>Отказаться платить штраф</Russian>
 		</Key>
 	</Package>
 	<Package name="Trunk_Menu">
@@ -1693,7 +1693,7 @@
 			<French>Thon</French>
 			<Italian>Tonno</Italian>
 			<Portuguese>Atum</Portuguese>
-			<Russian>Туна</Russian>
+			<Russian>Тунец</Russian>
 		</Key>
 		<Key ID="STR_ANIM_Mullet">
 			<Original>Mullet</Original>
@@ -1727,12 +1727,14 @@
 		<Key ID="STR_NOTF_Frozen">		
 			<Original>You have been frozen by an administrator</Original>		
 			<English>You have been frozen by an administrator</English>		
-			<German>To Be Changed</German>		
+			<German>To Be Changed</German>	
+			<Russian>Вы были заблокированы администратором</Russian>	
 		</Key>		
 		<Key ID="STR_NOTF_Unfrozen">		
 			<Original>You have been unfrozen by an administrator</Original>		
 			<English>You have been unfrozen by an administrator</English>		
 			<German>To Be Changed</German>		
+			<Russian>Вы были разблокированы администратором</Russian>
 		</Key>
 		<Key ID="STR_NOTF_NE_1">
 			<Original>You do not have $%1 for a %2</Original>
@@ -1741,7 +1743,7 @@
 			<French>Tu n'as pas %1$ pour cet élément : %2</French>
 			<Italian>Non hai €%1 per $2</Italian>
 			<Portuguese>Você não tem R$%1 para %2</Portuguese>
-			<Russian>У тебя нету $%1 для %2</Russian>
+			<Russian>У вас нет $%1 для %2</Russian>
 		</Key>
 		<Key ID="STR_NOTF_B_1">
 			<Original>You bought a %1 for $%2</Original>
@@ -1759,7 +1761,7 @@
 			<French>%1 a été arrêté par %2</French>
 			<Italian>%1 è stato arrestato da %2</Italian>
 			<Portuguese>%1 foi preso por %2</Portuguese>
-			<Russian>%1 арестован от %2</Russian>
+			<Russian>%1 был арестован %2</Russian>
 		</Key>
 		<Key ID="STR_NOTF_Fishing">
 			<Original>You caught a %1</Original>
@@ -1894,7 +1896,7 @@
 			<French>Vous n'avez pas $%1 pour vous soignez.</French>
 			<Italian>Non hai €$1 per essere curato</Italian>
 			<Portuguese>Você não tem R$%1 para ser tratado</Portuguese>
-			<Russian>У вас нехватает $%1 чтобы вылечиться</Russian>
+			<Russian>Вам не хватает $%1 чтобы вылечиться</Russian>
 		</Key>
 		<Key ID="STR_NOTF_HS_Healing">
 			<Original>Please stay still</Original>
@@ -1903,7 +1905,7 @@
 			<French>Ne bougez pas</French>
 			<Italian>Attendi pazientemente</Italian>
 			<Portuguese>Fique parado por favor</Portuguese>
-			<Russian>Постойте</Russian>
+			<Russian>Остановитесь</Russian>
 		</Key>
 		<Key ID="STR_NOTF_HS_ToFar">
 			<Original>You need to be within 5m while the doctor is healing you</Original>
@@ -1912,7 +1914,7 @@
 			<French>Vous devez être à moins de 5m pendant que le médecin vous soigne</French>
 			<Italian>Devi restare entro 5m dal dottore per essere curato</Italian>
 			<Portuguese>Você tem que estar a 5m para o médico tratá-lo</Portuguese>
-			<Russian>Стойте в 5м</Russian>
+			<Russian>Стойте на расстоянии не более 5 метров, чтобы доктор вылечил вас</Russian>
 		</Key>
 		<Key ID="STR_NOTF_HS_Healed">
 			<Original>You are now fully healed.</Original>
@@ -2011,7 +2013,7 @@
 			<French>Le moteur doit être arreté pour que le véhicule mine</French>
 			<Italian>Non puoi accendere il veicolo mentre estrae risorse</Italian>
 			<Portuguese>Você não pode ligar o veiculo com ele minerando</Portuguese>
-			<Russian>Вы не можете трогать машину пока идет добыча.</Russian>
+			<Russian>Вы не можете выключать машину пока идет добыча.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_DeviceMining">
 			<Original>The Device is mining...</Original>
@@ -2074,7 +2076,7 @@
 			<French>Vous devez attendre au moins 3 minutes en prison avant de payer une caution.</French>
 			<Italian>Devi aspettare almeno 3 minuti in prigione prima di poter pagare la cauzione.</Italian>
 			<Portuguese>Você precisa esperar pelo menos 3 minutos antes de poder pagar fiança.</Portuguese>
-			<Russian>Вы должны ждать по крайней мере 3 минуты в тюрьме, прежде чем платить залог.</Russian>
+			<Russian>Вы должны отсидеть по крайней мере 3 минуты в тюрьме, прежде чем платить залог.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_Bail_NotEnough">
 			<Original>You do not have $%1 in your bank account to pay bail.</Original>
@@ -2137,7 +2139,7 @@
 			<French>Ce véhicule dispose d'aucune information, il a probablement été engendré en travers tricheurs. \n\ véhicule Deleting.</French>
 			<Italian>Il veicolo è privo di identificativi, probabilmente è stato creato mediante cheat. \n\nCancellazione veicolo.</Italian>
 			<Portuguese>Esse veículo não tem informações, é provável que ele tenha sido criado por um cheater.\n\nDeletando veículo.</Portuguese>
-			<Russian>Этот автомобиль не имеет никакой информации, вероятно, призван через читов. \n\nМашина удалена.</Russian>
+			<Russian>Этот автомобиль не имеет никакой информации, вероятно, призван с помощью чита. \n\nМашина удалена.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_Action">
 			<Original>You are already doing an action. Please wait for it to end.</Original>
@@ -2146,7 +2148,7 @@
 			<French>Vous faites déjà une action. S'il vous plaît attendre qu'elle se termine.</French>
 			<Italian>Stai già compiendo un'azione, attendi che finisca.</Italian>
 			<Portuguese>Você já está executando uma ação. Por favor espere até que ela acabe.</Portuguese>
-			<Russian>Вы уже делаете действие. Пожалуйста, подождите, пока он закончится.</Russian>
+			<Russian>Вы уже совершаете действие. Пожалуйста, подождите пока оно закончится.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_Unrestrain">
 			<Original>%1 was unrestrained by %2</Original>
@@ -2173,7 +2175,7 @@
 			<French>%1 n'a pas d'argent.</French>
 			<Italian>%1 non ha alcun soldo.</Italian>
 			<Portuguese>%1 não tem nenhum dinheiro.</Portuguese>
-			<Russian>%1 не было никаких денег.</Russian>
+			<Russian>%1 не имеет никаких денег.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_Tazed">
 			<Original>%1 was tazed by %2</Original>
@@ -2182,7 +2184,7 @@
 			<French>%1 a été tazé par %2</French>
 			<Italian>%1 è stato taserato da %2</Italian>
 			<Portuguese>%1 foi tazed por %2</Portuguese>
-			<Russian>%1 шокер попал игроком %2</Russian>
+			<Russian>%1 был оглушен игроком %2</Russian>
 		</Key>
 		<Key ID="STR_NOTF_VehContraband">
 			<Original>A vehicle was searched and has $%1 worth of drugs / contraband.</Original>
@@ -2191,7 +2193,7 @@
 			<French>Un véhicule venant d'être fouillé avait $%1 de drogue / contrebande.</French>
 			<Italian>Un veidolo è stato ispezionato e sono stati sequestrati €%1 in materiale illegale.</Italian>
 			<Portuguese>O veículo foi revistado e tem R$%1 em drogas ou contrabandos</Portuguese>
-			<Russian>Был произведен обыск и имеет в транспорте $%1 стоимости наркотиков / контрабанды.</Russian>
+			<Russian>Во время обыска машины было обнаружено наркотиков / контрабанды на сумму $%1.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_PulledOut">
 			<Original>You have been pulled out of the vehicle</Original>
@@ -2254,7 +2256,7 @@
 			<French>Vous n'avez pas assez d'espace!</French>
 			<Italian>Non hai abbastanza spazio per quel quantitativo!</Italian>
 			<Portuguese>Você não tem espaço suficiente para guardar o item</Portuguese>
-			<Russian>Вам не хватает места для этой суммы!</Russian>
+			<Russian>Недостаточно места!</Russian>
 		</Key>
 		<Key ID="STR_NOTF_NotEnoughMoney">
 			<Original>You don't have that much money!</Original>
@@ -2263,7 +2265,7 @@
 			<French>Vous n'avez pas assez d'argent!</French>
 			<Italian>Non hai tutti quei soldi!</Italian>
 			<Portuguese>Você não tem todo esse dinheiro!</Portuguese>
-			<Russian>У вас нет так много денег!</Russian>
+			<Russian>Недостаточно средств!</Russian>
 		</Key>
 		<Key ID="STR_NOTF_NotACop">
 			<Original>You are not a cop.</Original>
@@ -2281,7 +2283,7 @@
 			<French>Vous n'avez pas assez de place.</French>
 			<Italian>Non hai abbastanza spazio per quell'oggetto.</Italian>
 			<Portuguese>Você não tem espaço suficiente no seu inventário.</Portuguese>
-			<Russian>У вас не достаточно места для этого элемента.</Russian>
+			<Russian>Недостаточно места для этого элемента.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_ProcessWOLicense">
  			<Original>You need $%1 to process without a license!</Original>
@@ -2298,7 +2300,7 @@
 			<French>Vous ne pouvez pas utiliser rapidement les touches d'action!</French>
 			<Italian>Non puoi riusare così rapidamente il tasto azione!</Italian>
 			<Portuguese>Você ão pode usar a tecla de ação repetidamente!</Portuguese>
-			<Russian>Вы не можете быстро использовать клавиши по!</Russian>
+			<Russian>Вы не можете так быстро использовать клавиши!</Russian>
  		</Key>
  		<Key ID="STR_NOTF_NotEnoughFunds">
  			<Original>You do not have enough funds in your bank account</Original>
@@ -2307,7 +2309,7 @@
  			<French>Vous n'avez pas assez de fond dans votre compte bancaire</French>
 			<Italian>Non hai abbastanza fondi nel tuo conto in banca</Italian>
 			<Portuguese>Você não tem todo esse dinheiro em sua conta bancária.</Portuguese>
-			<Russian>Вы не имеите достаточно средств на вашем банковском счете</Russian>
+			<Russian>Недостаточно средств на банковском счете</Russian>
  		</Key>
  		<Key ID="STR_NOTF_CouldntAdd">
  			<Original>Couldn't add it to your inventory.</Original>
@@ -2316,7 +2318,7 @@
  			<French>Impossible d'ajouter cela à votre inventaire</French>
 			<Italian>Non puoi aggiungerlo al tuo inventario.</Italian>
 			<Portuguese>Não foi possível adicionar o item ao seu inventário</Portuguese>
-			<Russian>Не удалось добавить его в свой инвентарь.</Russian>
+			<Russian>Не удалось добавить предмет в инвентарь.</Russian>
  		</Key>
 		<Key ID="STR_NOTF_EatMSG_1">
  			<Original>You haven't eaten anything in awhile, You should find something to eat soon!</Original>
@@ -2325,7 +2327,7 @@
 			<French>Vous n'avez rien mangé depuis un certain temps, vous devriez trouver quelque chose à manger!</French>
 			<Italian>E' da tempo che non mangi qualcosa, dovresti trovare qualcosa da mettere sotto i denti in fretta!</Italian>
 			<Portuguese>Você não come a bastante tempo. Coma algo em breve.</Portuguese>
-			<Russian>Ты ничего не кушал большое время, Вы должны найти еду, чтобы поесть!</Russian>
+			<Russian>Вы ничего не ели длительное время, Вам нужно срочно поесть!</Russian>
  		</Key>
  		<Key ID="STR_NOTF_EatMSG_2">
  			<Original>You are starting to starve, you need to find something to eat otherwise you will die.</Original>
@@ -2334,7 +2336,7 @@
 			<French>Vous commencez à mourir de faim, vous avez besoin de trouver quelque chose à manger, sinon, vous allez mourrir</French>
 			<Italian>Ti stai indebolendo, devi trovare qualcosa da mangiare o morirai.</Italian>
 			<Portuguese>Você está começando a ficar famindo. Se você não comer irá morrer de fome.</Portuguese>
-			<Russian>Вы начинаете голодать, вам нужно найти еду, чтобы поесть в противном случае ты умрешь.</Russian>
+			<Russian>Вы слегка голодны, вам нужно найти еду, чтобы не умереть от голода.</Russian>
  		</Key>
  		<Key ID="STR_NOTF_EatMSG_3">
  			<Original>You are now starving to death, you will die very soon if you don't eat something</Original>
@@ -2343,7 +2345,7 @@
 			<French>Vous êtes en train de mourir de faim, vous allez mourir très bientôt si vous ne mangez pas quelque chose</French>
 			<Italian>Stai perdendo le forze, se non mangi qualcosa in fretta morirai.</Italian>
 			<Portuguese>Você está morto de fome, coma algo ou irá morrer.</Portuguese>
-			<Russian>Вы теперь голодной, ты умрешь очень скоро, если вы не найдете еду</Russian>
+			<Russian>Вы очень голодны и можете умереть.</Russian>
  		</Key>
  		<Key ID="STR_NOTF_EatMSG_Death">
  			<Original>You have starved to death.</Original>
@@ -2361,6 +2363,7 @@
 			<French>Vous n'avez rien bu depuis un certain temps, vous devriez trouver quelque chose à boire!</French>
 			<Italian>E' da parecchio tempo che non bevi qualcosa, dovresti trovare qualcosa da bere.</Italian>
 			<Portuguese>Você não bebe nada a bastante tempo. Tome algo para não ficar desidratado.</Portuguese>
+			<Russian>Вы некоторое время ничего не пили, необходимо найти воду.</Russian>
  		</Key>
  		<Key ID="STR_NOTF_DrinkMSG_2">
  			<Original>You haven't drank anything in along time, you should find something to drink soon or you'll start to die from dehydration.</Original>
@@ -2369,6 +2372,7 @@
 			<French>Vous commencez à mourir de soif, vous avez besoin de trouver quelque chose à boire, sinon, vous allez mourrir</French>
 			<Italian>E' troppo tempo che non bevi qualcosa, dovresti trovare qualcosa da bere o comincerai a disitratarti.</Italian>
 			<Portuguese>Você está ficando desidratado. Se não ber algo poderá morrer.</Portuguese>
+			<Russian>Вы давно ничего не пили, необходимо попить, чтобы не умереть от обезвоживания.</Russian>
  		</Key>
  		<Key ID="STR_NOTF_DrinkMSG_3">
  			<Original>You are now suffering from severe dehydration find something to drink quickly!</Original>
@@ -2377,6 +2381,7 @@
 			<French>Vous êtes en train de mourir de soif, vous allez mourir très bientôt si vous ne buvez pas quelque chose</French>
 			<Italian>Stai soffrendo per una grave deidratazione, trova velocemente qualcosa da bere o morirai!</Italian>
 			<Portuguese>Você está sofrendo de desidratação. Beba algo ou irá morrer!</Portuguese>
+			<Russian>Вам нужно срочно попить, иначе вы умрете.</Russian>
  		</Key>
  		<Key ID="STR_NOTF_DrinkMSG_Death">
  			<Original>You have died from dehydration.</Original>
@@ -2385,6 +2390,7 @@
 			<French>Vous êtes mort de soif.</French>
 			<Italian>Sei morto per disidratazione.</Italian>
 			<Portuguese>Você morreu desidratado.</Portuguese>
+			<Russian>Вы умерли от обезвоживания.</Russian>
  		</Key>
  		<Key ID="STR_NOTF_MaxWeight">
  			<Original>You are over carrying your max weight! You will not be able to run or move fast till you drop some items!</Original>
@@ -2393,6 +2399,7 @@
 			<French>Vous êtes surchargé, vous ne pouvez plus courrir ou bouger rapidement à moins de lacher quelques objets!</French>
 			<Italian>Stai trasportando oltre il tuo carico massimo! Non riuscirai a correre fino a quando non ti libererai di qualche oggetto!</Italian>
 			<Portuguese>Você está carregando muito peso. Você não irá conseguir correr ou se mover rapidamente.</Portuguese>
+			<Russian>Вы превысили максимальный вес! Вы не можете бежать, пока не сбросите некоторые вещи!</Russian>
  		</Key>
  		<Key ID="STR_NOTF_SearchVeh">
  			<Original>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Original>
@@ -2401,6 +2408,7 @@
 			<French>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</French>
 			<Italian>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Italian>
 			<Portuguese>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Portuguese>
+			<Russian>&lt;t color='#FF0000'&gt;&lt;t size='2'&gt;Vehicle Info&lt;/t&gt;&lt;/t&gt;&lt;br/&gt;&lt;t color='#FFD700'&gt;&lt;t size='1.5'&gt;Owners&lt;/t&gt;&lt;/t&gt;&lt;br/&gt; %1</Russian>
  		</Key>
  		<Key ID="STR_NOTF_CannotSearchPerson">
 			<Original>Cannot search that person.</Original>
@@ -2409,6 +2417,7 @@
 			<French>Cannot search that person.</French>
 			<Italian>Cannot search that person.</Italian>
 			<Portuguese>Cannot search that person.</Portuguese>
+			<Russian>Невозможно обыскать игрока.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_Repairing">
  			<Original>Repairing %1</Original>
@@ -2417,7 +2426,7 @@
 			<French>Repairing %1</French>
 			<Italian>Repairing %1</Italian>
 			<Portuguese>Repairing %1</Portuguese>
-			<Russian>Ремонт %1</Russian>
+			<Russian>Починка %1</Russian>
  		</Key>
  		<Key ID="STR_NOTF_RepairingInVehicle">
  			<Original>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</Original>
@@ -2426,6 +2435,7 @@
 			<French>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</French>
 			<Italian>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</Italian>
 			<Portuguese>You must be outside of the vehicle to fix it. Sorry that this prevents you from exploiting the system, well not really.</Portuguese>
+			<Russian>Вы должны быть вне транспортного средства, чтобы починить его. Извините, это предотвращает использование системы в личных целях.</Russian>
  		</Key>
  		<Key ID="STR_NOTF_RepairedVehicle">
  			<Original>You have repaired that vehicle.</Original>
@@ -2460,6 +2470,7 @@
 			<French>Vous avez été arrêté, attendez que votre peine soit terminée. Si vous tentez de respawn ou reconnectez votre temps sera augmenté!</French>
 			<Italian>Sei stato arrestato, sconta la tua pena. Se cercherai di rinascere o di riconnettere il tuo tempo aumenterà!</Italian>
 			<Portuguese>Você foi preso, cumpra sua pena. Se você tentar renascer ou reconectar seu tempo na cadeia irá aumentar!</Portuguese>
+			<Russian>Вы были арестованы, отсидите какое-то время. Если вы попытаетесь перевозродиться или переподключиться время будет увеличенно.</Russian>
 		</Key>
 		<Key ID="STR_Jail_LicenseNOTF">
 			<Original>For being arrested you have lost the following licenses if you own them\n\nFirearms License\nRebel License</Original>
@@ -2468,6 +2479,7 @@
 			<French>Après votre mise en prison, vous avez perdu les licences suivante si vous les aviez\n\nFirearms License\nRebel License</French>
 			<Italian>A causa del tuo arresto hai perso le seguenti licenze, se le possedevi\n\nPorto d'armi\nLicenza Ribelle</Italian>
 			<Portuguese>Você perdeu as seguintes licenças por ter sido preso\n\nPorte de Armas\n\nTreinamento Rebelde</Portuguese>
+			<Russian>За арест вы были лишены следующих лицензий\n\nЛицензия на оружие\Лицензия повстанца</Russian>
 		</Key>
 		<Key ID="STR_Jail_EscapeNOTF">
 			<Original>%1 has escaped from jail!</Original>
@@ -2476,6 +2488,7 @@
 			<French>%1 s'est échappé de prison!</French>
 			<Italian>%1 è scappato dalla prigione!</Italian>
 			<Portuguese>%1 escapou da prisão</Portuguese>
+			<Russian>%1 сбежал из тюряги!</Russian>
 		</Key>
 		<Key ID="STR_Jail_EscapeSelf">
 			<Original>You have escaped from jail, you still retain your previous crimes and now have a count of escaping jail.</Original>
@@ -2484,6 +2497,7 @@
 			<French>Vous vous êtes échappé de prison, vous conserver toujours vos crimes précédents et ils savent maintenant que vous vous êtes échappé de prison.</French>
 			<Italian>Sei scappato di prigione, rimarrai ricercato per i crimini da te commessi in precedenza e in aggiunta per essere scappato di prigione.</Italian>
 			<Portuguese>Você escapou da prisão, agora você é procurado por esse crime e todos os outros que tinha cometido anteriormente</Portuguese>
+			<Russian>Вы сбежали из тюряги, однако вас поставили на счетчик и запомнили ваши преступления.</Russian>
 		</Key>
 		<Key ID="STR_Jail_Released">
 			<Original>You have served your time in jail and have been released.</Original>
@@ -2492,6 +2506,7 @@
 			<French>Vous avez terminé votre peine, vous êtes libre.</French>
 			<Italian>Hai scontato la tua pena in prigione e sei stato rilasciato.</Italian>
 			<Portuguese>Você pagou pelo seus crimes e foi libertado.</Portuguese>
+			<Russian>Вы отсидели необходимое время и были выпущены из тюрьмы.</Russian>
 		</Key>
 		<Key ID="STR_Jail_Time">
 			<Original>Time Remaining:</Original>
@@ -2500,6 +2515,7 @@
 			<French>Temps restant:</French>
 			<Italian>Tempo rimanente:</Italian>
 			<Portuguese>Tempo Restante:</Portuguese>
+			<Russian>Оставшееся время:</Russian>
 		</Key>
 		<Key ID="STR_Jail_Pay">
 			<Original>Can pay bail:</Original>
@@ -2508,6 +2524,7 @@
 			<French>Peut payer la caution:</French>
 			<Italian>Puoi pagare la cauzione:</Italian>
 			<Portuguese>Pode pagar fiança:</Portuguese>
+			<Russian>Можете заплатить залог:</Russian>
 		</Key>
 		<Key ID="STR_Jail_Price">
 			<Original>Bail Price:</Original>
@@ -2516,6 +2533,7 @@
 			<French>Prix de la caution:</French>
 			<Italian>Costo cauzione:</Italian>
 			<Portuguese>Preço da fiança:</Portuguese>
+			<Russian>Цена залога:</Russian>
 		</Key>
 		<Key ID="STR_Jail_Paid">
 			<Original>You have paid your bail and are now free.</Original>
@@ -2524,6 +2542,7 @@
 			<French>Vous avez payé votre caution, vous êtes désormais libres.</French>
 			<Italian>Hai pagato la cauzione e sei libero.</Italian>
 			<Portuguese>Você pagou fiança e agora está livre.</Portuguese>
+			<Russian>Вы заплатили залог и теперь свободны.</Russian>
 		</Key>
 	</Package>
 	<Package name="Civ_Strings">
@@ -2534,6 +2553,7 @@
 			<French>%1 vous a assommé.</French>
 			<Italian>%1 ti ha colpito stordendoti.</Italian>
 			<Portuguese>%1 nocauteou você.</Portuguese>
+			<Russian>%1 оглушил вас.</Russian>
 		</Key>
 		<Key ID="STR_Civ_LicenseRemove_1">
 			<Original>You have lost all your motor vehicle licenses for vehicular manslaughter.</Original>
@@ -2542,6 +2562,7 @@
 			<French>Vous avez perdu tout vos permis véhicule pour avoir écrasé quelqu'un.</French>
 			<Italian>Hai perso tutte le tue licenze di guida a causa di un omicidio stradale.</Italian>
 			<Portuguese>Você não perdeu suas licenças de motorista por atropelamento.</Portuguese>
+			<Russian>Вы потеряли все ваши права на наземные транспортные средства.</Russian>
 		</Key>
 		<Key ID="STR_Civ_LicenseRemove_2">
 			<Original>You have lost your firearms license for manslaughter.</Original>
@@ -2549,6 +2570,7 @@
 			<German>Du hast deinen Waffenschein wegen Mordes verloren.</German>
 			<French>Vous avez perdu votre permis d'armes à feu pour homicide involontaire.</French>
 			<Italian>Hai perso il tuo Porto d'Armi a causa di un omicidio</Italian>
+			<Russian>Вы потеряли лицензию на оружие за непредумышленное убийство.</Russian>
 		</Key>
 		<Key ID="STR_Civ_RobFail">
 			<Original>They didn't have any cash...</Original>
@@ -2557,6 +2579,7 @@
 			<French>Ils n'ont pas l'agent...</French>
 			<Italian>Non hai soldi...</Italian>
 			<Portuguese>Eles não tinham nenhum dinheiro..</Portuguese>
+			<Russian>У них нет денег...</Russian>
 		</Key>
 		<Key ID="STR_Civ_Robbed">
 			<Original>You stole $%1</Original>
@@ -2565,6 +2588,7 @@
 			<French>Vous avez volé $%1</French>
 			<Italian>Hai rubato €%1</Italian>
 			<Portuguese>Você roubou R$%1</Portuguese>
+			<Russian>Вы украли $%1</Russian>
 		</Key>
 		<Key ID="STR_Civ_VaultEmpty">
 			<Original>The safe is empty!</Original>
@@ -2573,6 +2597,7 @@
 			<French>Le coffre est vide</French>
 			<Italian>La cassaforte è vuota!</Italian>
 			<Portuguese>O Cofre está vazio!</Portuguese>
+			<Russian>Сейф пуст!</Russian>
 		</Key>
 		<Key ID="STR_Civ_VaultInUse">
 			<Original>Someone is already accessing the safe..</Original>
@@ -2581,6 +2606,7 @@
 			<French>Quelqu'un accède déjà au coffre..</French>
 			<Italian>Qualcuno sta già interagendo con la cassaforte..</Italian>
 			<Portuguese>Alguem já está acessando o cofre.</Portuguese>
+			<Russian>Кто-то уже открывает этот сейф..</Russian>
 		</Key>
 		<Key ID="STR_Civ_NotEnoughCops">
 			<Original>There needs to be 5 or more cops online to continue.</Original>
@@ -2589,6 +2615,7 @@
 			<French>Il faut au minimum 5 flic pour continuer</French>
 			<Italian>Servono almeno 5 poliziotti online per continuare.</Italian>
 			<Portuguese>É necessário ter pelo menos 5 Policiais online para continuar.</Portuguese>
+			<Russian>Необходимо присутствие 5 или более полицейских.</Russian>
 		</Key>
 		<Key ID="STR_Civ_SafeInv">
 			<Original>Safe Inventory</Original>
@@ -2597,6 +2624,7 @@
 			<French>Coffre</French>
 			<Italian>Inventario cassaforte</Italian>
 			<Portuguese>Cofre</Portuguese>
+			<Russian>Сейф</Russian>
 		</Key>
 		<Key ID="STR_Civ_SelectItem">
 			<Original>You need to select an item!</Original>
@@ -2605,6 +2633,7 @@
 			<French>Vous devez sélectionner un objet</French>
 			<Italian>Devi selezionare un oggetto!</Italian>
 			<Portuguese>Você precisa selecionar um item!</Portuguese>
+			<Russian>Вам необходимо выбрать предмет</Russian>
 		</Key>
 		<Key ID="STR_Civ_IsntEnoughGold">
 			<Original>There isn't %1 gold bar(s) in the safe!</Original>
@@ -2613,6 +2642,7 @@
 			<French>Il n'y a pas %1 lingot(s) d'or dans le coffre</French>
 			<Italian>Nella cassaforte non ci sono %1 lingotti d'oro</Italian>
 			<Portuguese>Não existem %1 barra(s) de ouro no cofre!</Portuguese>
+			<Russian>В сейфе нет %1 золотых слитков в сейфе!</Russian>
 		</Key>
 	</Package>
 	<Package name="Cop_Strings">
@@ -2623,6 +2653,7 @@
 			<French>Impossible d'ouvrir l'interface d'amendement</French>
 			<Italian>Impossibile aprire l'interfaccia per le multe</Italian>
 			<Portuguese>Não foi possível abrir o bloco de multa</Portuguese>
+			<Russian>Невозможно открыть список штрафов</Russian>
 		</Key>
 		<Key ID="STR_Cop_Ticket">
 			<Original>Ticketing %1</Original>
@@ -2631,6 +2662,7 @@
 			<French>Mise de l'amende à %1</French>
 			<Italian>Multando %1</Italian>
 			<Portuguese>Multando %1</Portuguese>
+			<Russian>Штраф %1</Russian>
 		</Key>
 		<Key ID="STR_Cop_TicketNil">
 			<Original>Person to ticket is nil</Original>
@@ -2639,6 +2671,7 @@
 			<French>La personne à verbaliser est nulle</French>
 			<Italian>La persona da multare è nil</Italian>
 			<Portuguese>Jogador a ser multado é nulo</Portuguese>
+			<Russian>Оштрафованный человек - никто</Russian>
 		</Key>
 		<Key ID="STR_Cop_TicketExist">
 			<Original>Person to ticket doesn't exist.</Original>
@@ -2647,6 +2680,7 @@
 			<French>La personne à verbaliser est inexistante</French>
 			<Italian>La persona da multare non esiste.</Italian>
 			<Portuguese>Jogador a ser multado não existe.</Portuguese>
+			<Russian>Оштрафованный человек не существует</Russian>
 		</Key>
 		<Key ID="STR_Cop_TicketNum">
 			<Original>You didn't enter actual number.</Original>
@@ -2655,6 +2689,7 @@
 			<French>Vous n'avez pas saisi de nombre.</French>
 			<Italian>Non hai inserito un numero correttamente.</Italian>
 			<Portuguese>Você não digitou um número válido</Portuguese>
+			<Russian>Вы не ввели нужный номер.</Russian>
 		</Key>
 		<Key ID="STR_Cop_TicketOver100">
 			<Original>Tickets can not be more than $200,000!</Original>
@@ -2663,6 +2698,7 @@
 			<French>Les billets ne peuvent être plus de $ 200,000!</French>
 			<Italian>La multa non può essere più di €200.000!</Italian>
 			<Portuguese>A multa não pode ser maior que R$200.000!</Portuguese>
+			<Russian>Штраф не может превышать $200,000!</Russian>
 		</Key>
 		<Key ID="STR_Cop_TicketGive">
 			<Original>%1 gave a ticket of $%2 to %3</Original>
@@ -2671,6 +2707,7 @@
 			<French>%1 a mis une contravention de $%2 à %3</French>
 			<Italian>%1 ha dato una multa di €%2 a %3</Italian>
 			<Portuguese>%1 deu uma multa de R$%2 para %3</Portuguese>
+			<Russian>%1 выписал штраф на $%2 игроку %3</Russian>
 		</Key>	
 		<Key ID="STR_Cop_Ticket_NotEnough">
 			<Original>You don't have enough money in your bank account or on you to pay the ticket.</Original>
@@ -2679,6 +2716,7 @@
 			<French>Vous n'avez pas assez d'argent dans votre compte bancaire ou sur vous pour payer l'amende.</French>
 			<Italian>Non hai fondi sufficienti nel tuo conto in banca per pagare la multa.</Italian>
 			<Portuguese>Você não tem dinheiro suficiente em sua conta bancária ou de você para pagar o bilhete.</Portuguese>
+			<Russian>У вас недостаточно денег на счету для оплаты штрафа</Russian>
 		</Key>
 		<Key ID="STR_Cop_Ticket_NotEnoughNOTF">
 			<Original>%1 couldn't pay the ticket due to not having enough money.</Original>
@@ -2687,6 +2725,7 @@
 			<French>% 1 ne pouvait pas payer la contravention car il n'avait pas assez d'argent.</French>
 			<Italian>%1 non può pagare la multa perchè non ha sufficienti fondi nel suo conto in banca.</Italian>
 			<Portuguese>%1 não pode pagar a multa pois não tem dinheiro suficiente.</Portuguese>
+			<Russian>%1 не хватило средств для оплаты штрафа</Russian>
 		</Key>
 		<Key ID="STR_Cop_Ticket_Paid">
 			<Original>You have paid the ticket of $%1</Original>
@@ -2695,7 +2734,7 @@
 			<French>Vous avez payé l'amende de $%1</French>
 			<Italian>Hai pagato la multa di €%1</Italian>
 			<Portuguese>VOcê pagou a multa de R$%1</Portuguese>
-			<Russian>Вы оплатили билет $%1</Russian>
+			<Russian>Вы оплатили штраф $%1</Russian>
 		</Key>
 		<Key ID="STR_Cop_Ticket_PaidNOTF">
 			<Original>%1 paid the ticket of $%2</Original>
@@ -2704,7 +2743,7 @@
 			<French>%1 payé la contravention de $%2</French>
 			<Italian>%1 ha pagato la multa di €%2</Italian>
 			<Portuguese>%1 pagou a multa de R$%2</Portuguese>
-			<Russian>%1 оплатили билет $%2</Russian>
+			<Russian>%1 оплатил штраф $%2</Russian>
 		</Key>
 		<Key ID="STR_Cop_Ticket_PaidNOTF_2">
 			<Original>%1 paid the ticket.</Original>
@@ -2722,7 +2761,7 @@
 			<French>%1 vous a donné une amende de $%2</French>
 			<Italian>%1 ti ha dato una multa di €%2</Italian>
 			<Portuguese>%1 lhe aplicou uma multa de R$%2</Portuguese>
-			<Russian>%1 дал вам штраф $%2</Russian>
+			<Russian>%1 выписал вам штраф $%2</Russian>
 		</Key>
 		<Key ID="STR_Cop_Ticket_Refuse">
 			<Original>%1 refused to pay the ticket.</Original>
@@ -2749,7 +2788,7 @@
 			<French>Vous avez reçu une prime de $%1 pour le meurtre d'un criminel recherché, si vous l'aviez arrêté, vous auriez reçu $%</French>
 			<Italian>Hai ricevuto il pagamento di una taglia di €%1 per aver ucciso un criminale ricercato, se lo avessi arrestato avresti ricevuto €%2</Italian>
 			<Portuguese>Você conquistou uma recompensa de $%1 por matar um criminoso procurado, e se voçê prendeu esse suspeito voçê receberá R$%2</Portuguese>
-			<Russian>Вы получили премию $%1 за убийство разыскиваемого преступника, если бы вы его арестовали, вы бы, получил $%2</Russian>
+			<Russian>Вы получили премию $%1 за убийство разыскиваемого преступника, за арест вы бы получил $%2</Russian>
 		</Key>
 		<Key ID="STR_Cop_Contraband">
 			<Original>%1 has $%2 worth of contraband on them.</Original>
@@ -2758,7 +2797,7 @@
 			<French>%1 a $%2 de contrebande sur lui.</French>
 			<Italian>%1 ha €%2 in materiali illegali con se.</Italian>
 			<Portuguese>%1 tem R$%1 em contrabando.</Portuguese>
-			<Russian>%1 получил $%2 премию за контрабанду.</Russian>
+			<Russian>У %1 контрабанды на $%2.</Russian>
 		</Key>
 		<Key ID="STR_Cop_IllegalItems">
 			<Original>Illegal Items</Original>
@@ -2776,6 +2815,7 @@
 			<French>%1 à été identifié comme un braqueur de banque!</French>
 			<Italian>%1 è stato identificato come il rapinatore della banca!</Italian>
 			<Portuguese>%1 foi identificado como ladrão de banco!</Portuguese>
+			<Russian>%1 был опознан как грабитель банка!</Russian>
 		</Key>
 		<Key ID="STR_Cop_NoIllegal">
 			<Original>No illegal items</Original>
@@ -2802,6 +2842,7 @@
 			<French>Vous devez activer le "Picture in Picture" (PiP) dans vos paramètre vidéo pour utilser ceci!</French>
 			<Italian>Devi attivare Picture in Picture (PiP) nelle tue impostazioni video per usare questa funzione!</Italian>
 			<Portuguese>Você precisa habilitar o Picture in Picture (PiP), através de suas configurações de vídeo para usar esta opção!</Portuguese>
+			<Russian>Вы должны включить режим Картинка в Картинке (PiP) в настройках видео чтобы использовать это!</Russian>
 		</Key>
 		<Key ID="STR_Cop_Licenses">
 			<Original>Licenses:</Original>
@@ -2819,7 +2860,7 @@
 			<French>Aucune licence</French>
 			<Italian>Nessuna Licenza</Italian>
 			<Portuguese>Sem Licenças</Portuguese>
-			<Russian>Нет лицензии</Russian>
+			<Russian>Нет лицензий</Russian>
 		</Key>
 		<Key ID="STR_Cop_NoIllegalVeh">
 			<Original>Nothing illegal in this vehicle</Original>
@@ -2846,6 +2887,7 @@
 			<French>$%1 du vol de la Réserve fédérale est récupéré du voleur qui vient d'être tué.</French>
 			<Italian>€%1 della rapina alla Riserva Federale sono stati recuperati dal rapinatore ucciso.</Italian>
 			<Portuguese>R$%1 que foi roubado da Reserva Federal foi retornado a ela após a morte do ladrão.</Portuguese>
+			<Russian>$%1 из Банка Федерального Резерва было обнаружено у убитого грабителя.</Russian>
 		</Key>
 		<Key ID="STR_Cop_RepairVault">
 			<Original>Repairing vault...</Original>
@@ -2854,6 +2896,7 @@
 			<French>Réparation du coffre...</French>
 			<Italian>Riparando il Caveau</Italian>
 			<Portuguese>Reparando Cofre...</Portuguese>
+			<Russian>Починка хранилища...</Russian>
 		</Key>
 		<Key ID="STR_Cop_VaultRepaired">
 			<Original>The vault is now fixed and re-secured.</Original>
@@ -2862,6 +2905,7 @@
 			<French>Le coffre est de nouveau sécurisé.</French>
 			<Italian>Il Caveau è stato riparato e messo in sicurezza.</Italian>
 			<Portuguese>O Cofre foi consertado e está seguro.</Portuguese>
+			<Russian>Хранилище было отремонтировано и защищено.</Russian>
 		</Key>
 		<Key ID="STR_Cop_VaultLocked">
 			<Original>The vault is already locked?</Original>
@@ -2870,7 +2914,7 @@
 			<French>Le coffre est déjà fermé?</French>
 			<Italian>Il Caveau è già bloccato?</Italian>
 			<Portuguese>O Cofre está trancado?</Portuguese>
-			<Russian>Сейф уже заблокирован?</Russian>
+			<Russian>Хранилище уже заблокирован?</Russian>
 		</Key>
 		<Key ID="STR_Cop_VaultUnder1">
 			<Original>You can't enter anything below 1!</Original>
@@ -2879,6 +2923,7 @@
 			<French>Vous ne pouvez pas moins de 1!</French>
 			<Italian>Non puoi selezionare nulla sotto l'1!</Italian>
 			<Portuguese>Não é permitido usar valor abaixo de 1!</Portuguese>
+			<Russian>Значение не может быть меньше 1!</Russian>
 		</Key>
 		<Key ID="STR_Cop_OnlyGold">
 			<Original>You can't store anything but gold bars in the safe.</Original>
@@ -2887,6 +2932,7 @@
 			<French>Vous ne pouvez pas mettre autre chose que des lingot d'or.</French>
 			<Italian>Nella cassaforte puoi depositare solo lingotti d'oro.</Italian>
 			<Portuguese>Você só pode guardar Barras de Ouro no cofre.</Portuguese>
+			<Russian>Вы не можете хранить в сейфе ничего кроме золотых слитков.</Russian>
 		</Key>
 		<Key ID="STR_Cop_NotEnoughGold">
 			<Original>You don't have %1 gold bar(s)</Original>
@@ -2895,6 +2941,7 @@
 			<French>Vous n'avez pas %1 lingot(s) d'or</French>
 			<Italian>Non hai %1 lingotti d'oro</Italian>
 			<Portuguese>Você não tem %1 Barra(s) de Ouro</Portuguese>
+			<Russian>У вас нет %1 золотых слитков</Russian>
 		</Key>
 		<Key ID="STR_Cop_CantRemove">
 			<Original>Couldn't remove the item(s) from your inventory to put in the safe.</Original>
@@ -2903,6 +2950,7 @@
 			<French>Vous ne pouvez pas supprimer les items de votre inventaire pour les mettre dans le coffre.</French>
 			<Italian>Non è stato possibile rimuovere gli oggetti dal tuo inventario per metterli nella cassaforte.</Italian>
 			<Portuguese>Não foi possível mover o item do invetário para o cofre.</Portuguese>
+			<Russian>Невозможно перенести предмет(ы) из вашего инвентаря в хранилище.</Russian>
 		</Key>
 		<Key ID="STR_Cop_CouldntSearch">
 			<Original>Couldn't search %1</Original>
@@ -2911,6 +2959,7 @@
 			<French>Impossible de fouiller %1</French>
 			<Italian>Impossibile ispezionare %1</Italian>
 			<Portuguese>Não foi possível buscar por %1</Portuguese>
+			<Russian>Невозможно найти %1</Russian>
 		</Key>
 		<Key ID="STR_Cop_RepairingDoor">
 			<Original>Repairing Door...</Original>
@@ -2919,7 +2968,7 @@
 			<French>Réparation de la porte...</French>
 			<Italian>Riparando la porta...</Italian>
 			<Portuguese>Reparando a porta....</Portuguese>
-			<Russian>Ремонт дверей...</Russian>
+			<Russian>Ремонт двери...</Russian>
 		</Key>
 		<Key ID="STR_Cop_NoLicensesFound">
 			<Original>No Licenses&lt;br/&gt;</Original>
@@ -2973,7 +3022,7 @@
 			<French>Vous êtes démenotté automatiquement pour un menottage excessivement long</French>
 			<Italian>Sei stato automaticamente liberato per essere rimasto ammanettato troppo tempo</Italian>
 			<Portuguese>Você foi solto automaticamente, devido ao tempo limite ter expirado.</Portuguese>
-			<Russian>Вы были освобождены автоматически время вышло</Russian>
+			<Russian>Вы были освобождены автоматически по истечению времени.</Russian>
 		</Key>
 		<Key ID="STR_Cop_Retrained">
 			<Original>You have been restrained by %1</Original>
@@ -2982,7 +3031,7 @@
 			<French>Vous avez été menotté par %1</French>
 			<Italian>%1 ti ha tolto le manette</Italian>
 			<Portuguese>Você foi solto por %1</Portuguese>
-			<Russian>Вы были арестованы игроком %1</Russian>
+			<Russian>Вы были задержаны игроком %1</Russian>
 		</Key>
 	</Package>
 	<Package name="MISC_Strings">
