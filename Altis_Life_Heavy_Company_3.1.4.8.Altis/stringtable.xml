@@ -202,13 +202,14 @@
 			<English>Debug</English>
 			<German>Debug</German>
 			<French>Debug</French>
+			<Russian>Дебаг</Russian>
 		</Key>
 		<Key ID="STR_Admin_Compensate">
 			<Original>Comp</Original>
 			<English>Comp</English>
 			<German>Comp</German>
 			<French>Comp</French>
-			<Russian>Компен</Russian>
+			<Russian>Компенсировать</Russian>
 		</Key>
 		<Key ID="STR_Admin_God">
 			<Original>GodMode</Original>
@@ -222,7 +223,7 @@
 			<English>Freeze</English>
 			<German>Freeze</German>
 			<French>Geler</French>
-			<Russian>Замороз</Russian>
+			<Russian>Заморозка</Russian>
 		</Key>
 		<Key ID="STR_Admin_Markers">
 			<Original>Markers</Original>
@@ -236,7 +237,7 @@
 			<English>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</English>
 			<German>To Be Changed</German>
 			<French>Vous êtes sur le point de vous donner $%1 pour compenser à un autre joueur &lt;br/&gt;&lt;br/&gt; S'il vous plaît donner à cette à la personne vous compensez manuellement</French>
-			<Russian>Вы собираетесь получить $%1 чтобы компенсировать другому игроку &lt;br/&gt;&lt;br/&gt; Вы должны отдать жти деньги игроку вручную</Russian>
+			<Russian>Вы собираетесь получить $%1 чтобы компенсировать другому игроку &lt;br/&gt;&lt;br/&gt; Вы должны отдать эти деньги игроку вручную</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_Success">
 			<Original>You have added $%1 to your account.</Original>
@@ -264,54 +265,63 @@
 			<English>You have disabled %1's input.</English>
 			<German>To Be Changed</German>
 			<French>Vous avez désactivé %1's contrôles</French>
+			<Russian>Вы заморозили игрока %1.</Russian> 
 		</Key>
 		<Key ID="STR_ANOTF_Unfrozen">
 			<Original>You have enabled %1's input.</Original>
 			<English>You have enabled %1's input.</English>
 			<German>To Be Changed</German>
 			<French>Vous avez permis %1's contrôles</French>
+			<Russian>Вы разморозили игрока %1.</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_Error">
 			<Original>You can't do that dumbass.</Original>
 			<English>You can't do that dumbass.</English>
 			<German>To Be Changed</German>
 			<French>Vous ne pouvez pas le faire sur vous-même</French>
+			<Russian>Вы не можете этого сделать.</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_ErrorLevel">
 			<Original>Your Admin Level is not high enough.</Original>
 			<English>Your Admin Level is not high enough.</English>
 			<German>To Be Changed</German>
 			<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+			<Russian>Уровень вашей админки недостаточно высок.</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_MDisabled">
 			<Original>Player Markers Disabled.</Original>
 			<English>Player Markers Disabled.</English>
 			<German>To Be Changed</German>
 			<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+			<Russian>Маркеры игроков отключены.</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_MEnabled">
 			<Original>Player Markers Enabled.</Original>
 			<English>Player Markers Enabled.</English>
 			<German>To Be Changed</German>
 			<French>Votre Niveau admin n'est pas suffisamment élevée</French>
+			<Russian>Маркеры игроков включены.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_ActionCancel">
 			<Original>Action Cancelled</Original>
 			<English>Action Cancelled</English>
 			<German>Aktion abgebrochen</German>
 			<French>Action Annulée</French>
+			<Russian>Действие отменено.</Russian>
 		</Key>
 		<Key ID="STR_Global_Yes">
 			<Original>Yes</Original>
 			<English>Yes</English>
 			<German>Ja</German>
 			<French>Oui</French>
+			<Russian>Да.</Russian>
 		</Key>
 		<Key ID="STR_Global_No">
 			<Original>No</Original>
 			<English>No</English>
 			<German>Nein</German>
 			<French>Aucun</French>
+			<Russian>Нет</Russian>
 		</Key>
 	</Package>
 	<Package name="ATM_Strings">
@@ -624,7 +634,7 @@
 			<French>Passer Chef</French>
 			<Italian>Imposta Capo</Italian>
 			<Portuguese>Passar Liderança</Portuguese>
-			<Russian>Установить лидера</Russian>
+			<Russian>Выбрать в качестве лидера</Russian>
 		</Key>
 		<Key ID="STR_Gang_PriceTxt">
 			<Original>To create a gang it costs $%1</Original>
@@ -660,7 +670,7 @@
 			<French>Tu n'as pas de gang actuellement</French>
 			<Italian>Non sei in una gang, cosa intendi fare?</Italian>
 			<Portuguese>Você não está em uma Gangue, o que deseja fazer?</Portuguese>
-			<Russian>Вы не в банде в настоящее время, что вы хотите сделать?</Russian>
+			<Russian>Вы не состоите в банде, что вы хотите сделать?</Russian>
 		</Key>
 		<Key ID="STR_Gang_Browse">
 			<Original>Browse</Original>
@@ -678,7 +688,7 @@
 			<French>Inviter joueur</French>
 			<Italian>Invita Giocatore</Italian>
 			<Portuguese>Convidar Jogador</Portuguese>
-			<Russian>Пригласить</Russian>
+			<Russian>Пригласить игрока</Russian>
 		</Key>
 		<Key ID="STR_Gang_Disband_Gang">
 			<Original>Disband Gang</Original>
@@ -696,7 +706,7 @@
 			<French>Invitation de Gang</French>
 			<Italian>Invito Gang</Italian>
 			<Portuguese>Convite para Gangue</Portuguese>
-			<Russian>Приглашение банды</Russian>
+			<Russian>Приглашение в банды</Russian>
 		</Key>
 		<Key ID="STR_Gang_Transfer">
 			<Original>Transfer Gang Leadership</Original>
@@ -714,7 +724,7 @@
 			<French>Augmentation du nombre de membre acceptés</French>
 			<Italian>Aumenta numero massimo membri della Gang</Italian>
 			<Portuguese>Atualizar limite máximo de membros</Portuguese>
-			<Russian>Обновление максимально количество пользователей</Russian>
+			<Russian>Обновление максимально разрешенного количества пользователей</Russian>
 		</Key>
 	</Package>
 	<Package name="Gang_Notification">
@@ -725,7 +735,7 @@
 			<French>Vous devez créer un gang avant de le capturer!</French>
 			<Italian>Devi creare una gang prima di catturarla!</Italian>
 			<Portuguese>Você precisa criar uma gangue antes de tentar capturar esse esconderijo!</Portuguese>
-			<Russian>Вы должны создать банду, прежде чем захватить его!</Russian>
+			<Russian>Вы должны создать банду, прежде чем захватить это!</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_Controlled">
 			<Original>Your gang already has control over this hideout!</Original>
@@ -734,7 +744,7 @@
 			<French>Votre bande a déjà le contrôle de cette cachette!</French>
 			<Italian>La tua Gang ha già il controllo di questo Covo</Italian>
 			<Portuguese>Sua gangue já tem controle sobre esse esconderijo!</Portuguese>
-			<Russian>Наша банда уже имеет контроль над убежищем!</Russian>
+			<Russian>Ваша банда уже имеет контроль над убежищем!</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_Captured">
 			<Original>Only one person shall capture at once!</Original>
@@ -743,7 +753,7 @@
 			<French>Une seule personne doit capturer à la fois!</French>
 			<Italian>Può conquistare solo una persona alla volta!</Italian>
 			<Portuguese>Somente uma pessoa pode capturar!</Portuguese>
-			<Russian>Только один человек должен захватить сразу!</Russian>
+			<Russian>Только один человек может захватывать за раз!</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_AlreadyControlled">
 			<Original>This hideout is controlled by %1.&lt;br/&gt;&lt;br/&gt;Are you sure you want to take over their gang area?</Original>
@@ -752,7 +762,7 @@
 			<French>Cette cachette est contrôlée par %1.&lt;br/&gt;&lt;br/&gt;Etes-vous sûr que vous voulez prendre en charge leur zone de gang?</French>
 			<Italian>Questo Covo è controllato da %1.&lt;br/&gt;&lt;br/&gt;Sicuro di voler prendere il controllo della loro area?</Italian>
 			<Portuguese>Esse esconderijo é controlado por %1.&lt;br/&gt;&lt;br/&gt;Você tem certeza que deseja tomar essa área?</Portuguese>
-			<Russian>Это укрытие контролируется %1.&lt;br/&gt;&lt;br/&gt;Вы уверены, что хотите взять на себя в их районе банды?</Russian>
+			<Russian>Это укрытие контролируется %1.&lt;br/&gt;&lt;br/&gt;Вы уверены, что хотите вступить на их територию?</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_CurrentCapture">
 			<Original>Hideout is currently under control...</Original>
@@ -770,7 +780,7 @@
 			<French>Capture annulée</French>
 			<Italian>Cattura annullata</Italian>
 			<Portuguese>Ação concelada</Portuguese>
-			<Russian>Захват отменяется</Russian>
+			<Russian>Захват отменен</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_Capturing">
 			<Original>Capturing Hideout</Original>
@@ -779,7 +789,7 @@
 			<French>Capture cachette</French>
 			<Italian>Catturando il Covo</Italian>
 			<Portuguese>Capturando Esconderijo</Portuguese>
-			<Russian>Захват Укрытия</Russian>
+			<Russian>Захват укрытия</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_CaptureSuccess">
 			<Original>%1 and his gang: %2 - have taken control of a local hideout!</Original>
@@ -797,7 +807,7 @@
 			<French>Vous ne pouvez pas avoir un nom de gang de plus de 32 caractères.</French>
 			<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
 			<Portuguese>O nome de sua gangue não pode ter mais de 32 caracteres.</Portuguese>
-			<Russian>Имя банды не должно быть более 32 символов.</Russian>
+			<Russian>Название банды должно быть не больше 32 символов.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_IncorrectChar">
 			<Original>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</Original>
@@ -806,7 +816,7 @@
 			<French>Vous avez des caractères non valides dans le nom de votre gang. Il ne peut être constitué de chiffres amd lettres avec un trait de soulignement</French>
 			<Italian>Hai inserito caratteri non validi nel nome della Gang. Puoi inserire solo numeri e lettere con un underscore</Italian>
 			<Portuguese>O nome da sua gangue tem caracteres inválidos. O nome so pode conter caracteres e números separados por sublinhado</Portuguese>
-			<Russian>У вас есть недопустимые символы в вашем названии банды. Оно может состоять только из цифр и букв с подчеркивания</Russian>
+			<Russian>У вас есть недопустимые символы в вашем названии банды. Оно может состоять только из цифр и букв с нижними подчеркиванием</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_NotEnoughMoney">
 			<Original>You do not have enough money in your bank account.\n\nYou lack: $%1</Original>
@@ -833,7 +843,7 @@
 			<French>Vous vous apprêtez à dissoudre le gang, en démantelant le gang, il sera supprimé de la base de données et le groupe sera supprimé. &lt;br/&gt;&lt;br/&gt;Etes-vous sûr de vouloir dissoudre le groupe? Vous ne serez pas remboursé le prix de sa création</French>
 			<Italian>Stai per sciogliere la Gang, facendolo sarà rimossa dal Database e il gruppo verrà cancellato. &lt;br/&gt;&lt;br/&gt;Sei sicuro di voler sciogliere il gruppo? Non verrai rimborsato dei fondi spesi per crearlo.</Italian>
 			<Portuguese>Você vai desfazer a sua gangue, ela será apagada do banco de dados. &lt;br/&gt;&lt;br/&gt;Você tem certeza que quer desfazer a gangue? Você não será reembolsado.</Portuguese>
-			<Russian>Вы собираетесь распустить банду, на расформирование банда будет удален из базы данных, и группа будет сброшена. &lt;br/&gt;&lt;br/&gt;Вы уверены, что хотите распустить группу? Вам не будете возвращена цене для создания его.</Russian>
+			<Russian>Вы собираетесь распустить банду, после расформирования банда будет удалена из базы данных, и группа будет сброшена. &lt;br/&gt;&lt;br/&gt;Вы уверены, что хотите распустить группу? Вам не будете возвращена цена ее создания.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_DisbandGangPro">
 			<Original>Disbanding the gang...</Original>
@@ -869,7 +879,7 @@
 			<French>%1 vous a invité à un gang appelé %2&lt;br/&gt;Si vous acceptez l'invitation que vous serez une partie de leur gang et aurez accès à des fonds de gangs et des cachettes de gangs contrôlés.</French>
 			<Italian>%1 ti ha invitato nella Gang: %2&lt;br/&gt;Se vuoi accettarai l'invito entrerai a far parte della loro Gang ed avrai accesso ai loro fondi e ai loro Covi.</Italian>
 			<Portuguese>%1 convidou você para a gangue %2&lt;br/&gt;Se você aceitar você terá acesso aos recursos da gangue e os esconderijos.</Portuguese>
-			<Russian>%1 пригласил вас к банде под названием %2&lt;br/&gt;Если Вы примете приглашение, вы будете частью их банды и будут иметь доступ к средствам банды и контролируемых укрытий банды.</Russian>
+			<Russian>%1 пригласил вас в банде с названием %2&lt;br/&gt;Если Вы примете приглашение, вы станете частью банды и будете иметь доступ к средствам и укрытиям банды.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_InvitePlayerMSG">
 			<Original>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</Original>
@@ -878,7 +888,7 @@
 			<French>Vous êtes sur le point d'inviter %1 à votre gang, s'ils acceptent l'invitation, ils auront accès à des fonds du gang.</French>
 			<Italian>Stai per invitare %1 nella tua Gang, se accetterà l'invito avrà accesso ai fondi della Gang.</Italian>
 			<Portuguese>Você vai convidar %1 para a gangue, ele terá acesso aos recursos da gangue.</Portuguese>
-			<Russian>Вы собираетесь пригласить %1 к вашей банды, если они принимают приглашение они будут иметь доступ к средствам банды.</Russian>
+			<Russian>Вы собираетесь пригласить %1 в вашу банду, если они принимают приглашение то будут иметь доступ к средствам банды.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_SelectPerson">
 			<Original>You need to select a person to invite!</Original>
@@ -896,7 +906,7 @@
 			<French>Vous avez envoyé une invitation à votre gang à %1</French>
 			<Italian>Hai mandato l'invito alla tua Gang a %1</Italian>
 			<Portuguese>Você enviou um convite para %1 se juntar a sua gangue</Portuguese>
-			<Russian>Отправлено адресату пригласить в банды %1</Russian>
+			<Russian>Приглашение в банду отправлено %1</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_InviteCancel">
 			<Original>Invitation Cancelled</Original>
@@ -914,7 +924,7 @@
 			<French>Vous ne pouvez pas kicker vous-même!</French>
 			<Italian>Non puoi espellerti da solo!</Italian>
 			<Portuguese>Você não pode kickar você mesmo!</Portuguese>
-			<Russian>Вы не можете кик себя!</Russian>
+			<Russian>Вы не можете кикнуть себя!</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_MaxSlot">
 			<Original>Your gang has reached its maximum allowed slots, please upgrade your gangs slot limit.</Original>
@@ -923,7 +933,7 @@
 			<French>Votre gang à atteint le nombre de membre maximum, veuillez augmenter cette limite.</French>
 			<Italian>la tua Gang ha raggiungo il numero massimo di posti consentiti, aumentane il limite.</Italian>
 			<Portuguese>Sua gangue está lotada, você deve aumentar o número máximo de jogadores.</Portuguese>
-			<Russian>Ваша банда достигла своих максимальных слотов, пожалуйста, обновите ваш предел слотов банды.</Russian>
+			<Russian>Ваша банда заполнена, пожалуйста, увеличьте количество слотов в банде.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_SelectKick">
 			<Original>You need to select a person to kick!</Original>
@@ -951,7 +961,7 @@
 			<French>Vous allez transférer le commandement à %1&lt;br/&gt;En transférant le commandement, vous ne serez plus le chef du gang, sauf si le commandement est transféré de nouveau.</French>
 			<Italian>Stai per traferire il comando a %1&lt;br/&gt;Facendolo non avrai più il controllo della Gang fino a quando non ti verrà restituito il comando.</Italian>
 			<Portuguese>Você vai transferir a liderança da gangue para %1&lt;br/&gt;Você não será mais o lider da gangue.</Portuguese>
-			<Russian>Вы собираетесь передать лидерство к %1&lt;br/&gt;Передавая лидерство вы больше не будете иметь контроль над бандой, если владение не передается обратно.</Russian>
+			<Russian>Вы собираетесь передать лидерство к %1&lt;br/&gt;Передавая лидерство вы больше не будете иметь контроль над бандой, если руководство не передадут обратно.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_TransferCancel">
 			<Original>Transfer of leadership cancelled.</Original>
@@ -960,7 +970,7 @@
 			<French>Transfert du commandement annulée.</French>
 			<Italian>Trasferimento del comando annullato.</Italian>
 			<Portuguese>Transferencia de liderança cancelada.</Portuguese>
-			<Russian>Передача руководства отменен.</Russian>
+			<Russian>Передача руководства отменена.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_TransferSelf">
 			<Original>You are already the leader!</Original>
@@ -978,7 +988,7 @@
 			<French>Vous devez choisir une personne d'abord!</French>
 			<Italian>Devi selezionare una persona!</Italian>
 			<Portuguese>Você tem que selecionar um jogador antes!</Portuguese>
-			<Russian>Вы должны выбрать человека первым!</Russian>
+			<Russian>Сначала вы должны выбрать человека!</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_MaxMemberMSG">
 			<Original>You are about to upgrade the maximum members allowed for your gang.</Original>
@@ -987,7 +997,7 @@
 			<French>Vous êtes sur le point de mettre à niveau la limite de membre autorisées pour votre gang.</French>
 			<Italian>Stai aumentando il numero massimo di membri consentiti all'interno della tua Gang</Italian>
 			<Portuguese>Você vai atualizar o limite de membros da gangue.</Portuguese>
-			<Russian>Вы собираетесь обновить максимальные количество слотов для вашей банды.</Russian>
+			<Russian>Вы собираетесь увеличить максимальное количество слотов в вашей банде.</Russian>
 		</Key>
 		<Key ID="STR_GNOTF_CurrentMax">
 			<Original>Current Max: %1</Original>
