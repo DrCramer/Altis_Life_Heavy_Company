@@ -80,7 +80,7 @@
 			<French>Récupérer</French>
 			<Italian>Ritira</Italian>
 			<Portuguese>Recuperar</Portuguese>
-			<Russian>Извлеч</Russian>
+			<Russian>Извлечь</Russian>
 		</Key>
 		<Key ID="STR_Global_NoSelection">
 			<Original>You did not select anything.</Original>
@@ -89,7 +89,7 @@
 			<French>Vous n'avez rien sélectionné.</French>
 			<Italian>Non hai selezionato nulla.</Italian>
 			<Portuguese>Você não selecionou nada.</Portuguese>
-			<Russian>Вы не чего не выбрали.</Russian>
+			<Russian>Вы ничего не выбрали.</Russian>
 		</Key>
 		<Key ID="STR_Global_Yes">
 			<Original>Yes</Original>
@@ -181,18 +181,21 @@
 			<English>Spectate</English>
 			<German>Zuschauen</German>
 			<French>Regardez</French>
+			<Russian>Наблюдать</Russian>
 		</Key>
 		<Key ID="STR_Admin_Teleport">
 			<Original>Teleport</Original>
 			<English>Teleport</English>
 			<German>Teleport</German>
 			<French>Teleport</French>
+			<Russian>Телепорт</Russian>
 		</Key>
 		<Key ID="STR_Admin_TpHere">
 			<Original>TP Here</Original>
 			<English>TP Here</English>
 			<German>TP Hier</German>
 			<French>TP Ici</French>
+			<Russian>ТП сюда</Russian>
 		</Key>
 		<Key ID="STR_Admin_Debug">
 			<Original>Debug</Original>
@@ -205,18 +208,21 @@
 			<English>Comp</English>
 			<German>Comp</German>
 			<French>Comp</French>
+			<Russian>Компен</Russian>
 		</Key>
 		<Key ID="STR_Admin_God">
 			<Original>GodMode</Original>
 			<English>GodMode</English>
 			<German>Gott</German>
 			<French>Dieu</French>
+			<Russian>ГадМод</Russian>
 		</Key>
 		<Key ID="STR_Admin_Freeze">
 			<Original>Freeze</Original>
 			<English>Freeze</English>
 			<German>Freeze</German>
 			<French>Geler</French>
+			<Russian>Замороз</Russian>
 		</Key>
 		<Key ID="STR_Admin_Markers">
 			<Original>Markers</Original>
@@ -237,6 +243,7 @@
 			<English>You have added $%1 to your account.</English>
 			<German>To Be Changed</German>
 			<French>Vous avez ajouté $%1 à votre compte</French>
+			<Russian>Вы добавили $%1 себе на счет.</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_Fail">
 			<Original>You can not go above 999999.</Original>
