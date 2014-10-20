@@ -80,7 +80,7 @@
 			<French>Récupérer</French>
 			<Italian>Ritira</Italian>
 			<Portuguese>Recuperar</Portuguese>
-			<Russian>Извлеч</Russian>
+			<Russian>Извлечь</Russian>
 		</Key>
 		<Key ID="STR_Global_NoSelection">
 			<Original>You did not select anything.</Original>
@@ -89,7 +89,7 @@
 			<French>Vous n'avez rien sélectionné.</French>
 			<Italian>Non hai selezionato nulla.</Italian>
 			<Portuguese>Você não selecionou nada.</Portuguese>
-			<Russian>Вы не чего не выбрали.</Russian>
+			<Russian>Вы ничего не выбрали.</Russian>
 		</Key>
 		<Key ID="STR_Global_Yes">
 			<Original>Yes</Original>
@@ -181,12 +181,14 @@
 			<English>Spectate</English>
 			<German>Zuschauen</German>
 			<French>Regardez</French>
+			<Russian>Наблюдать</Russian>
 		</Key>
 		<Key ID="STR_Admin_Teleport">
 			<Original>Teleport</Original>
 			<English>Teleport</English>
 			<German>Teleport</German>
 			<French>Teleport</French>
+			<Russian>Телепорт</Russian>
 		</Key>
 		<Key ID="STR_Admin_TpHere">
 			<Original>TP Here</Original>
