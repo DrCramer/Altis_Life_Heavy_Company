@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project name="Altis Life RPG">
 	<Package name="Global">
 		<Key ID="STR_Global_Close">
@@ -223,12 +223,14 @@
 			<English>Markers</English>
 			<German>Markers</German>
 			<French>Markers</French>
+			<Russian>Маркеры</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_CompWarn">
 			<Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
 			<English>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</English>
 			<German>To Be Changed</German>
 			<French>Vous êtes sur le point de vous donner $%1 pour compenser à un autre joueur &lt;br/&gt;&lt;br/&gt; S'il vous plaît donner à cette à la personne vous compensez manuellement</French>
+			<Russian>Потрачено</Russian>
 		</Key>
 		<Key ID="STR_ANOTF_Success">
 			<Original>You have added $%1 to your account.</Original>
