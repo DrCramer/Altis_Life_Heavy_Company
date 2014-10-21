@@ -1171,7 +1171,7 @@
 			<French>Désolé mais votre %1 à été détruit et vendu à la casse.</French>
 			<Italian>Purtroppo %1 è stato classificato come veicolo distrutto ed è stato mandato allo sfascio.</Italian>
 			<Portuguese>O veículo %1 foi mandado para o ferro velho pois foi classificado como destroido.</Portuguese>
-			<Russian>К сожалению %1 был классифицирован как разрушенный автомобиль и отправлен в свалку.</Russian>
+			<Russian>К сожалению %1 был классифицирован как разрушенный автомобиль и отправлен на свалку.</Russian>
 		</Key>
 		<Key ID="STR_Garage_SQLError_Active">
 			<Original>Sorry but %1 is already active somewhere in the world and cannot be spawned.</Original>
@@ -2139,7 +2139,7 @@
 			<French>Ce véhicule dispose d'aucune information, il a probablement été engendré en travers tricheurs. \n\ véhicule Deleting.</French>
 			<Italian>Il veicolo è privo di identificativi, probabilmente è stato creato mediante cheat. \n\nCancellazione veicolo.</Italian>
 			<Portuguese>Esse veículo não tem informações, é provável que ele tenha sido criado por um cheater.\n\nDeletando veículo.</Portuguese>
-			<Russian>Этот автомобиль не имеет никакой информации, вероятно, призван с помощью чита. \n\nМашина удалена.</Russian>
+			<Russian>Этот автомобиль не имеет никакой информации, вероятно, создан с помощью чита. \n\nМашина удалена.</Russian>
 		</Key>
 		<Key ID="STR_NOTF_Action">
 			<Original>You are already doing an action. Please wait for it to end.</Original>
@@ -2642,7 +2642,7 @@
 			<French>Il n'y a pas %1 lingot(s) d'or dans le coffre</French>
 			<Italian>Nella cassaforte non ci sono %1 lingotti d'oro</Italian>
 			<Portuguese>Não existem %1 barra(s) de ouro no cofre!</Portuguese>
-			<Russian>В сейфе нет %1 золотых слитков в сейфе!</Russian>
+			<Russian>В сейфе нет %1 золотых слитков!</Russian>
 		</Key>
 	</Package>
 	<Package name="Cop_Strings">
