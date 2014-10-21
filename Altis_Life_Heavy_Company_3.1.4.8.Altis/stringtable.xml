@@ -3042,6 +3042,7 @@
 			<French>Vous avez essayé de donner %1 %2 %3 mais il n'a pas assez de place et vous à tout redonné.</French>
 			<Italian>Hai provato a dare %1 %2 %3 ma non poteva trasportarlo quindi ti è stato restituito.</Italian>
 			<Portuguese>Você tentou dar %1 %2 %3, mas não conseguiu segurar e por isso que foi devolvido.</Portuguese>
+			<Russian>Вы попытались дать %1 %2 %3, но они не могут держать этого, все было возвращено.</Russian>
 		</Key>
 		<Key ID="STR_MISC_TooMuch_2">
 			<Original>%1 returned %2 %3 because they couldn't hold that amount.</Original>
@@ -3050,6 +3051,7 @@
 			<French>%1 vous à redonné %2 %3 parce qu'ils ne pouvaient pas en tenir autant.</French>
 			<Italian>%1 ha restituito %2 %3 perchè non poteva trasportare quella quantità</Italian>
 			<Portuguese>%1 retornou %2 %3 porque não conseguiu segurar essa quantidade.</Portuguese>
+			<Russian>%1 вернул %2 %3, потому что они не могут держать столько.</Russian>
 		</Key>
 		<Key ID="STR_MISC_TooMuch_3">
 			<Original>%1 has gave you %2 but you can only hold %3 so %4 was returned back.</Original>
@@ -3058,6 +3060,7 @@
 			<French>%1 vous à donné %2 mais vous ne pouvez en tenir que %3 donc %4 à été redonné.</French>
 			<Italian>%1 ti ha dato %2 ma puoi portare solo %3 quindi %4 sono stati restituiti.</Italian>
 			<Portuguese>%1 retornou %2 %3 porque não conseguiu segurar essa quantidade.</Portuguese>
+			<Russian>%1 дал вам %2, но вы можете держать только %3, так что %4 был возвращен.</Russian>
 		</Key>
 		<Key ID="STR_MISC_AttachmentMSG">
 			<Original>Do you want to add this item to your weapon or inventory? If you add it to your weapon your current existing attachment will be lost!</Original>
@@ -3066,6 +3069,7 @@
 			<French>Voulez-vous ajouter cet article à votre arme ou à votre inventaire? Si vous l'aajoutez à votre arme, votre attachement existant actuel sera perdu!</French>
 			<Italian>Vuoi aggiungere questo oggetto alla tua arma o all'inventario? Se lo aggiungerai all'arma verrà rimosso l'eventuale accessorio già presente su di essa!</Italian>
 			<Portuguese>Você quer adicionar este item à sua arma ou inventário? Se você adicioná-lo à sua arma seu item atual existente será perdida!</Portuguese>
+			<Russian>Вы действительно хотите добавить этот предмет или оружие в инвентарь? Если вы добавите это в оружие то ваш текущий слот будет потерян!</Russian>
 		</Key>
 		<Key ID="STR_MISC_Attachment">
 			<Original>Attachment slot taken!</Original>
@@ -3110,7 +3114,7 @@
 			<French>Vous n'êtes pas autorisé à accéder à ce véhicule tant qu'il est vérouillé.</French>
 			<Italian>Non ti è permesso l'accesso a questo veicolo mentre è bloccato.</Italian>
 			<Portuguese>Você não acessar o veiculo quando ele está trancado.</Portuguese>
-			<Russian>Вы не можете открыть автомобиль в то время как он заблокирован.</Russian>
+			<Russian>Вы не можете открыть заблокированный автомобиль.</Russian>
 		</Key>
 		<Key ID="STR_MISC_VehInvUse">
 			<Original>This vehicle's trunk is in use, only one person can use it at a time.</Original>
@@ -3137,7 +3141,7 @@
 			<French>Vous avez débloqué votre véhicule.</French>
 			<Italian>Hai sbloccato il tuo veicolo.</Italian>
 			<Portuguese>Você destrancou o veículo.</Portuguese>
-			<Russian>Ваш автомобиль теперь Открыт</Russian>
+			<Russian>Ваш автомобиль теперь открыт.</Russian>
 		</Key>
 		<Key ID="STR_MISC_VehLock">
 			<Original>You have locked your vehicle.</Original>
@@ -3146,7 +3150,7 @@
 			<French>Vous avez verrouillé votre véhicule.</French>
 			<Italian>Hai bloccato il tuo veicolo</Italian>
 			<Portuguese>Você trancou o veículo.</Portuguese>
-			<Russian>Ваш автомобиль теперь Закрыт</Russian>
+			<Russian>Ваш автомобиль теперь закрыт.</Russian>
 		</Key>
 		<Key ID="STR_MISC_SirensON">
 			<Original>Sirens On</Original>
@@ -3236,7 +3240,7 @@
 			<French>Vous ne pouvez pas entrer quoi que ce soit en dessous de 1!</French>
 			<Italian>Non puoi inserire nulla al di sotto di 1!</Italian>
 			<Portuguese>Você não pode digitar nada abaixo de 1!</Portuguese>
-			<Russian>Вы ничего не можете ввести ниже 1!</Russian>
+			<Russian>Число не может быть меньше 1!</Russian>
 		</Key>
 		<Key ID="STR_MISC_NotEnough">
 			<Original>The vehicle doesn't have that many of that item.</Original>
@@ -3245,6 +3249,7 @@
 			<French>Le véhicule n'e contient pas autant de cet objet.</French>
 			<Italian>Il veicolo non contiene così tanti oggetti.</Italian>
 			<Portuguese>A mala não tem toda essa contidade de items.</Portuguese>
+			<Russian>В автомобиле нету такого количества этих предметов.</Russian>
 		</Key>
 	</Package>
 	<Package name="Housing_Strings">
@@ -3255,6 +3260,7 @@
 			<French>Erreur lors de la sauvegarde des conteneur, impossible de localiser la maison.</French>
 			<Italian>Errore nel salvataggio del contenitore, impossibile trovare la casa?</Italian>
 			<Portuguese>Erro ao salvar a caixa, não foi possível encontrar a casa.</Portuguese>
+			<Russian>Ошибка сохранения контейнера, невозможно обнаружить дом.</Russian>
 		</Key>
 		<Key ID="STR_House_ContainerDeny">
 			<Original>You are not allowed to access this storage container without the owner opening it.</Original>
@@ -3263,6 +3269,7 @@
 			<French>Vous n'êtes pas autorisé à accéder à ce conteneur de stockage sans que le propriétaire ne l'ouvre.</French>
 			<Italian>Non sei autorizzato ad accedere a questo contentitore senza il permesso del proprietario.</Italian>
 			<Portuguese>Você so pode acessar a caixa se o dono deixar ela aberta.</Portuguese>
+			<Russian>Доступ к этому контейнеру закрыт, пока владелец не откроет его.</Russian>
 		</Key>
 		<Key ID="STR_House_Door_Unlock">
 			<Original>You have unlocked the door.</Original>
@@ -3298,6 +3305,7 @@
 			<French>Cette maison a été récemment vendu et est en cours de traitement dans la base de données.</French>
 			<Italian>Questa casa è stata venduta di recente ed il database la sta ancora processando.</Italian>
 			<Portuguese>Essa casa já foi vendida, estamos processando a ordem de compra</Portuguese>
+			<Russian>Этот дом был недавно продан и все еще в процессе загрузки.</Russian>
 		</Key>
 		<Key ID="STR_House_License">
 			<Original>You do not have a home owners license!</Original>
@@ -3306,6 +3314,7 @@
 			<French>Vous n'avez pas de permis de propriétaires de maison!</French>
 			<Italian>Non hai la licenza per il possesso delle case!</Italian>
 			<Portuguese>Você não tem um Registro Civil para comprar casas!</Portuguese>
+			<Russian>У вас нет прав на владение домом!</Russian>
 		</Key>
 		<Key ID="STR_House_Max_House">
 			<Original>You can only own %1 houses at a time.</Original>
@@ -3314,6 +3323,7 @@
 			<French>Vous ne pouvez posséder que %1 maisons à la fois.</French>
 			<Italian>Puoi possedere solo %1 case</Italian>
 			<Portuguese>Você só pode ter uma casa!</Portuguese>
+			<Russian>Вы можете владеть только %1 домами!</Russian>
 		</Key>
 		<Key ID="STR_House_NotEnough">
 			<Original>You do not have enough money!</Original>
@@ -3331,6 +3341,7 @@
 			<French>Cette maison est disponible pour &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; Il prend en charge jusqu'à %2 conteneurs de stockage</French>
 			<Italian>Questa casa è disponibile per &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;Può supportare fino a %2 contenitori</Italian>
 			<Portuguese>Essa casa está disponível por &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;&lt;br/&gt;Ela suporta até %2 caixa(s)</Portuguese>
+			<Russian>Этот дом доступен для &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt; он поддерживает до %2 контейнеров хранения.</Russian>
 		</Key>
 		<Key ID="STR_House_Purchase">
 			<Original>Purchase House</Original>
@@ -3384,7 +3395,7 @@
 			<French>%1 votre maison est perquisitionnée par les flics!</French>
 			<Italian>%1 la Polizia si sta introducendo in casa tua!</Italian>
 			<Portuguese>%1 Sua casa está sendo vasculhada pela Policia!</Portuguese>
-			<Russian>%1 на ваш дом совершали набег полиция!</Russian>
+			<Russian>%1 на ваш дом совершает набег полиция!</Russian>
 		</Key>
 		<Key ID="STR_House_Raid_Owner">
 			<Original>House Owner</Original>
@@ -3402,7 +3413,7 @@
 			<French>Il n'y a rien dans cette maison</French>
 			<Italian>In questa casa non c'è nulla.</Italian>
 			<Portuguese>Essa casa está vazia.</Portuguese>
-			<Russian>Там нет ничего в доме.</Russian>
+			<Russian>В доме ничего нет.</Russian>
 		</Key>
 		<Key ID="STR_House_Raid_Searching">
 			<Original>Searching House...</Original>
@@ -3420,6 +3431,7 @@
 			<French>Vous êtes parti trop loin de la maison!</French>
 			 <Italian>Sei andato troppo distante dalla casa!</Italian>
 			<Portuguese>Você está muito distante da casa!</Portuguese>
+			<Russian>Вы ушли слишком далеко от дома!</Russian>
 		</Key>
 		<Key ID="STR_House_Raid_Successful">
 			<Original>A house was raided and had $%1 worth of drugs / contraband.</Original>
@@ -3428,7 +3440,7 @@
 			<French>Une maison a été perquisitionné et a $%1 de drogue / contrebande.</French>
 			<Italian>Una casa è stata perquisita e sono stati trovati €%1 in materiali illegali.</Italian>
 			<Portuguese>A casa assaltada tem R$%1 em drogas ou contrabandos.</Portuguese>
-			<Russian>В доме были обнаружени наркотики $%1</Russian>
+			<Russian>В доме были обнаружени наркотики на сумму $%1</Russian>
 		</Key>
 		<Key ID="STR_House_Raid_NoIllegal">
 			<Original>Nothing illegal in this house.</Original>
@@ -3446,7 +3458,7 @@
 			<French>Stockage de la maison déverrouillé</French>
 			<Italian>Contenitori della casa sbloccati</Italian>
 			<Portuguese>Armário da casa destrancado</Portuguese>
-			<Russian>Хранение дома разблокировано</Russian>
+			<Russian>Хранилище дома разблокировано</Russian>
 		</Key>
 		<Key ID="STR_House_StorageLock">
 			<Original>House storage locked</Original>
@@ -3455,7 +3467,7 @@
 			<French>Stockage de Maison verrouillé</French>
 			<Italian>Contenitori della casa bloccati</Italian>
 			<Portuguese>Armário da casa trancado</Portuguese>
-			<Russian>Хранение дома заблокировано</Russian>
+			<Russian>Хранилище дома заблокировано</Russian>
 		</Key>
 		<Key ID="STR_House_LockingUp">
 			<Original>Locking up house please wait...</Original>
@@ -3481,6 +3493,7 @@
 			<French>Etes-vous sûr de vouloir vendre votre maison? Elle se vendra pour: &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</French>
 			<Italian>Sei sicuro di voler vendere la tua casa? La venderai per: &lt;t color='#8cff9b'&gt;€1&lt;/t&gt;</Italian>
 			<Portuguese>Você tem certeza que deseja vender a casa? O valor de venda é: &lt;t color='#8cff9b'&gt;R$%1&lt;/t&gt;</Portuguese>
+			<Russian>Вы уверены что хотите продать дом? Он будет продан за &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;</Russian>
 		</Key>
 	</Package>
 	<Package name="Vehicle_Service">
