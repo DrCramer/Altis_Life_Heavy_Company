@@ -63,7 +63,7 @@ player createDiarySubject ["controls","Controls"];
 					Any vehicle spawn (shop or garage)<br/>
 					Any weapon shop<br/>
 					All Police HQs<br/>
-					Rebel Outposts<br/>
+					Rebel Outposts<br/> \\cool
 					Donator Shops<br/><br/>
 				"
 		]
