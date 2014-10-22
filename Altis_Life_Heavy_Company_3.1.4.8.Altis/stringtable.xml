@@ -209,7 +209,7 @@
 			<English>Comp</English>
 			<German>Comp</German>
 			<French>Comp</French>
-			<Russian>Компенсировать</Russian>
+			<Russian>Компенсация</Russian>
 		</Key>
 		<Key ID="STR_Admin_God">
 			<Original>GodMode</Original>
@@ -1373,7 +1373,7 @@
 			<French>Sync Data</French>
 			<Italian>Salva Dati</Italian>
 			<Portuguese>Sincronizar Dados</Portuguese>
-			<Russian>Синхронизировать</Russian>
+			<Russian>Сохранить</Russian>
 		</Key>
 	</Package>
 	<Package name="Settings_Menu">
