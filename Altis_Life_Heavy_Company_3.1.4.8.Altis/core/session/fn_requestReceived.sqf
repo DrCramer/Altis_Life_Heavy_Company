@@ -22,6 +22,16 @@ if(count _this == 0) exitWith {[] call SOCK_fnc_insertPlayerInfo;};
 if((_this select 0) == "Error") exitWith {[] call SOCK_fnc_insertPlayerInfo;};
 if((getPlayerUID player) != _this select 0) exitWith {[] call SOCK_fnc_dataQuery;};
 
+if(profileName != _this select 1) exitWith {
+	//hint format["Ваш старый ник %1",_this select 1];
+	[format["За вашим ключем закреплён другой ник, укажите свой старый ник в профиле игры!<br/><br/>Ваш старый ник: <t color='#32cd32'>%1</t><br/><br/>Если у вас проблемы с изменением ника - обратитесь в группу вк <t color='#f5821f'>vk.com/arma3_hc</t>",
+	_this select 1],
+			"Зафиксировано изменение ника",
+			"Принять"
+	] call BIS_fnc_guiMessage;
+	["NameExists",false,false] call BIS_fnc_endMission;
+};
+
 //Lets make sure some vars are not set before hand.. If they are get rid of them, hopefully the engine purges past variables but meh who cares.
 if(!isServer && (!isNil "life_adminlevel" OR !isNil "life_coplevel" OR !isNil "life_donator")) exitWith {
 	[[profileName,getPlayerUID player,"VariablesAlreadySet"],"SPY_fnc_cookieJar",false,false] spawn life_fnc_MP;
