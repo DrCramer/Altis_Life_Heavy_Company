@@ -227,6 +227,9 @@ switch(_shop) do
 						["hlc_30Rnd_762x39_t_ak",nil,200],
 						["hlc_75Rnd_762x39_m_rpk",nil,700],
 						["hlc_muzzle_762SUP_AK",nil,1000],
+						["Cha_Pecheneg","ПКП-Печенег",25000],
+						["Cha_PK","ПКМ",25000],
+						["Cha_100Rnd_762x54_PK",nil,1000],
 						["HLC_Optic_PSO1","ПСО-1",500],
 						["HLC_Optic_1p29","УСП-1",500],
 						["hlc_optic_kobra","Кобра",0],
@@ -272,7 +275,10 @@ switch(_shop) do
 						["hlc_20Rnd_762x51_T_M14",nil,5000],
 						["hlc_muzzle_snds_M14",nil,5000],
 						["hlc_optic_artel_m14",nil,5000],
-						["hlc_optic_LRT_m14",nil,5000]
+						["hlc_optic_LRT_m14",nil,5000],
+						["Trixie_SMAW",nil,50000],
+						["Trixie_SMAW_HEDP",nil,5000],
+						["Trixie_SMAW_HEAA",nil,5000]
 					]
 				];
 			};
@@ -304,6 +310,9 @@ switch(_shop) do
 						["30Rnd_65x39_caseless_green",nil,275],
 						["stinger",nil,50000],
 						["Stinger_missile",nil,10000],
+						["Trixie_SMAW",nil,50000],
+						["Trixie_SMAW_HEDP",nil,5000],
+						["Trixie_SMAW_HEAA",nil,5000],
 						["hlc_rifle_ak74",nil,40000],
 						["hlc_rifle_aks74",nil,40000],
 						["hlc_rifle_ak12",nil,40000],
@@ -329,7 +338,10 @@ switch(_shop) do
 						["hlc_75Rnd_762x39_m_rpk",nil,5000],
 						["hlc_muzzle_762SUP_AK",nil,5000],
 						["HLC_Optic_PSO1",nil,5000],
-						["HLC_Optic_1p29",nil,5000],					
+						["HLC_Optic_1p29",nil,5000],
+						["Cha_Pecheneg","ПКП-Печенег",25000],
+						["Cha_PK","ПКМ",25000],
+						["Cha_100Rnd_762x54_PK",nil,2000],						
 						["hlc_rifle_LAR",nil,60000],	
 						["hlc_rifle_falosw",nil,60000],
 						["hlc_optic_suit",nil,5000],
