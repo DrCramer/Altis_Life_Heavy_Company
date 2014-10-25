@@ -3,7 +3,7 @@ waitUntil {!isnull player && player == player};
 waitUntil {!isNil {life_fnc_broadcast}};
 systemChat "TAWACS :: АНТИ-ЧИТ ИНИЦИАЛИЗИРОВАН";
 
-if((getPlayerUID player) in ["76561197961027815","76561197961552292"]) exitWith {systemChat "TAWACS :: ИНИЦИАЛИЗАЦИЯ ОТМЕНЕНА ПОТОМУ ЧТО ВЫ АДМИН";};
+if((getPlayerUID player) in ["76561197961027815","76561197961552292","76561197970827711"]) exitWith {systemChat "TAWACS :: ИНИЦИАЛИЗАЦИЯ ОТМЕНЕНА ПОТОМУ ЧТО ВЫ АДМИН";};
 
 private["_cfg","_patches","_sel","_name","_patches"];
 _cfg = configFile >> "CfgPatches";
