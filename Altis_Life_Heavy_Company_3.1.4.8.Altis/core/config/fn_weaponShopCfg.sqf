@@ -390,7 +390,6 @@ switch(_shop) do
 						["Trixie_Ranger3",nil,5000],
 						["Trixie_Ranger3_Camo",nil,5000],
 						["Trixie_Ranger3_Net",nil,5000],
-						["Trixie_Rangefinder",nil,5000],
 						["Trixie_20x762_Mag",nil,500],
 						["Trixie_10x762_Mag",nil,500],
 						["Trixie_5x762_Mag",nil,5000],
