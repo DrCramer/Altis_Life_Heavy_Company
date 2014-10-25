@@ -4887,7 +4887,7 @@
 			<French>Shop Stock</French>
 			<Italian>Stock Negozio</Italian>
 			<Portuguese>Estoque</Portuguese>
-			<Russian>Магазин склад</Russian>
+			<Russian>Ассортимент</Russian>
 		</Key>
 	</Package>
 		<Package name="Player_Interaction">
