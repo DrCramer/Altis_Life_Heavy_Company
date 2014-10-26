@@ -483,7 +483,7 @@ class Life_RscProgress
 	shadow = 2;
 	colorFrame[] = {0, 0, 0, 1};
 	colorBackground[] = {0,0,0,0.7};
-	colorBar[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+	colorBar[] = {0.039, 0.196, 0.51, 0.7};
 };
 
 class Life_RscListBox 
@@ -1085,7 +1085,7 @@ class Life_RscToolbox {
 	colorSelect[] = {0.95, 0.95, 0.95, 1};
 	colorTextDisable[] = {0.4, 0.4, 0.4, 1};
 	colorDisable[] = {0.4, 0.4, 0.4, 1};
-	colorSelectedBg[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+	colorSelectedBg[] = {0.039, 0.196, 0.51, 0.5};
 	font = "PuristaMedium";
 	sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)";
 };

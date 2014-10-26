@@ -7,7 +7,7 @@ class Life_my_smartphone {
 	
 	class controlsBackground {
 		class Life_RscTitleBackground:Life_RscText {
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+			colorBackground[] = {0.039, 0.196, 0.51, 0.7};
 			idc = -1;
 			x = 0.1;
 			y = 0.2;
@@ -25,7 +25,7 @@ class Life_my_smartphone {
 		};
         
     class PlayerListTitleBackground:Life_RscText {
-			colorBackground[] = {0.588, 0.424, 0.145, 1.0};
+			colorBackground[] = {0.047, 0.282, 0.757, 1.0};
 			idc = -1;
 			x = 0.11;
 			y = 0.25;
@@ -34,7 +34,7 @@ class Life_my_smartphone {
 		};
 		
 	class MessageTitleBackground:Life_RscText {
-			colorBackground[] = {0.588, 0.424, 0.145, 1.0};
+			colorBackground[] = {0.047, 0.282, 0.757, 1.0};
 			idc = -1;
 			x = 0.325;
 			y = 0.25;
@@ -43,7 +43,7 @@ class Life_my_smartphone {
 		};
 		
 	class RandomTitleBackground:Life_RscText {
-			colorBackground[] = {0.588, 0.424, 0.145, 1.0};
+			colorBackground[] = {0.047, 0.282, 0.757, 1.0};
 			idc = -1;
 			x = 0.325;
 			y = 0.25 + 0.3 + (1 / 25);
@@ -128,7 +128,7 @@ class Life_my_smartphone {
 			idc = 887892;
 			text = "$STR_SMARTPHONE_SCHREIBEN";
 			onButtonClick = "[4] call life_fnc_smartphone;";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 1.0};
+			colorBackground[] = {0.039, 0.196, 0.51, 1.0};
 			x = 0.11;
 			y = 0.25 + (1 / 25) + 0.51;
 			w = 0.2;
@@ -192,7 +192,7 @@ class Life_smartphone_schreiben
 
 	class controlsBackground {
 		class Life_RscTitleBackground:Life_RscText {
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+			colorBackground[] = {0.039, 0.196, 0.51, 0.7};
 			idc = -1;
 			x = 0.1;
 			y = 0.2;
@@ -225,7 +225,7 @@ class Life_smartphone_schreiben
 			idc = 88885;
 			text = "$STR_SMARTPHONE_ABSENDEN";
 			onButtonClick = "[1,-1,(ctrlText 88884)] call life_fnc_newMsg;";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 1.0};
+			colorBackground[] = {0.039, 0.196, 0.51, 1.0};
 			x = 0.6 - (6.25 / 40) + 0.088;
 			y = 0.3 + (1 / 25)  - 0.048;
 			w = (6.25 / 40);
@@ -236,7 +236,7 @@ class Life_smartphone_schreiben
 		{
 			idc = 888897;
 			text = "$STR_CELL_AdminMsg";
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 1.0};
+			colorBackground[] = {0.039, 0.196, 0.51, 1.0};
 			onButtonClick = "[5,-1,(ctrlText 88884)] call life_fnc_newMsg;";
 			
 			x = 0.6 - (6.25 / 40) - 0.121;

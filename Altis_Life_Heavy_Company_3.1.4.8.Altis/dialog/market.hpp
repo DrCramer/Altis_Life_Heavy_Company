@@ -9,7 +9,7 @@ class Market
 	{
 		class RscTitleBackground : Life_RscText
 		{
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
+			colorBackground[] = {0.039, 0.196, 0.51, 0.7};
 			idc = -1;
 			x = 0.1;
 			y = 0.2;
@@ -42,7 +42,7 @@ class Market
 		class RscTrunkText : Life_RscText
 		{
 			idc = -1;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			colorBackground[] = {0.039, 0.196, 0.51, 0.5};
 			text = "Цена покупки";
 			sizeEx = 0.04;
 			
@@ -53,7 +53,7 @@ class Market
 		class RscPlayerText : Life_RscText
 		{
 			idc = -1;
-			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", 0.5};
+			colorBackground[] = {0.039, 0.196, 0.51, 0.5};
 			text = "Цена продажи";
 			sizeEx = 0.04;
 			
