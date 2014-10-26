@@ -65,6 +65,7 @@ life_carryWeight = 0; //Represents the players current inventory weight (MUST ST
 ****** Life Variables *******
 *****************************
 */
+life_smartphoneTarget = ObjNull;
 life_net_dropped = false;
 life_hit_explosive = false;
 life_siren_active = false;

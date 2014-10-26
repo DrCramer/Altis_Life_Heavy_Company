@@ -165,6 +165,9 @@ class Life_Client_Core
 	class Player_Menu
 	{
 		file = "core\pmenu";
+		class smartphone {};
+		class newMsg {};
+		class showMsg {};
 		class wantedList {};
 		class wantedInfo {};
 		class wantedMenu {};

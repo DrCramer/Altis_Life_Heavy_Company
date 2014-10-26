@@ -26,3 +26,4 @@
 #include "federalReserve.h"
 #include "compensate.hpp"
 #include "market.hpp"
+#include "smartphone.hpp"
