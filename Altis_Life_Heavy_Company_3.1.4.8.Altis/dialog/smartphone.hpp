@@ -172,9 +172,9 @@ class Life_my_smartphone {
 			text = "$STR_SMARTPHONE_NOTRUF";
 			onButtonClick = "createDialog ""Life_smartphone_notruf"";";
 			colorBackground[] = {0.584, 0.086, 0.086,1.0};
-			x = 0.325 + 0.7 - 0.30;
+			x = 0.325 + 0.7 - 0.25;
 			y = 0.25 + (1 / 25) + 0.51;
-			w = 0.30;
+			w = 0.25;
 			h = (1 / 25);
 		};
 	};
