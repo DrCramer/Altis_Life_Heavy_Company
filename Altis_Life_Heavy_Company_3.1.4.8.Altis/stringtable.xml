@@ -5839,7 +5839,7 @@
 			<Original>Список игркоков</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
-			<Original>Сообщения  | VON | WANN</Original>
+			<Original>Сообщения  | От кого | WANN</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
 			<Original>Выберите сообщение, чтобы прочитать</Original>
@@ -5848,7 +5848,7 @@
 			<Original>Закрыть</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_SCHREIBEN">
-			<Original>Schreiben</Original>
+			<Original>Написать</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NOTRUF">
 			<Original>Экстренный вызов</Original>

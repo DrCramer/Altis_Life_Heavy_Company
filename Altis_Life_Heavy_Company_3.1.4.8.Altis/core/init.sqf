@@ -37,7 +37,7 @@ if(!isNil "life_server_extDB_notLoaded") exitWith {
 };
 [] call SOCK_fnc_dataQuery;
 waitUntil {life_session_completed};
-0 cutText["Finishing client setup procedure","BLACK FADED"];
+0 cutText["Завершение процедуры настройки клиента","BLACK FADED"];
 0 cutFadeOut 9999999;
 
 //diag_log "::Life Client:: Group Base Execution";
