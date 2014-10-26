@@ -22,7 +22,7 @@ switch(_type) do
 	case 0:
 	{
 		life_smartphoneTarget = call compile format["%1",_playerData];
-		ctrlSetText[88886, format["Nachricht an: %1",name life_smartphoneTarget]];
+		ctrlSetText[88886, format["Текст сообщения: %1",name life_smartphoneTarget]];
 		if((__GETC__(life_adminlevel) < 1)) then
 		{
 			ctrlShow[888897,false];
@@ -42,7 +42,7 @@ switch(_type) do
 	//copmessage
 	case 2:
 	{
-		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Die Polizei ist derzeit nicht zu erreichen. Bitte versuchen Sie es spater nochmal."];};
+		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Полиция в настоящее время недоступна. Пожалуйста, повторите попытку позже."];};
 		ctrlShow[888895,false];
 		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888895,true];};
 		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
@@ -65,7 +65,7 @@ switch(_type) do
 	//emsrequest
 	case 4:
 	{
-		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["Zurzeit ist kein Arzt im Dienst. Bitte probiere es spater nochmal."];};
+		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["В настоящее время нет ни одного медика онлайн. Пожалуйста, попробуйте еще раз позже."];};
 		ctrlShow[888899,false];
 		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888899,true];};
 		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;

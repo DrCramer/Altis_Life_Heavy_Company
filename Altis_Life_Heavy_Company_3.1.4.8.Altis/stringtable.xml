@@ -5860,7 +5860,7 @@
 			<Original>Сообщение:</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Notruftitle">
-			<Original>ВЫЗОВ ЭКСТРЕННОЙ СЛУЖБЫ | Злоупотребление приводят к БАНУ!</Original>
+			<Original>ВЫЗОВ ЭКСТРЕННОЙ СЛУЖБЫ</Original>
 		</Key>
 	</Package>
 </Project>
