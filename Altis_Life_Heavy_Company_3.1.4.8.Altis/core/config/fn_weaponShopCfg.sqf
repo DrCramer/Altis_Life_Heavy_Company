@@ -29,10 +29,11 @@ switch(_shop) do
 			{
 				["Altis Cop Shop",
 					[
-						["arifle_sdar_F","Автоматический Электрошокер",1000],
 						["DDOPP_1Rnd_X26",nil,100],
+						["DDOPP_X26_b",nil,10],
 						["DDOPP_X26",nil,10],
-						["HandGrenade_Stone","Светошумовая Граната",1700],
+						["SUPER_flash","Светошумовая Граната",1700],
+						["SmokeShellBlue","Слезоточивый Газ",0],
 						["Binocular",nil,150],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
@@ -44,8 +45,7 @@ switch(_shop) do
 						["NVGoggles_INDEP",nil,2000],
 						["Chemlight_yellow",nil,300],
 						["acc_flashlight",nil,1000],
-						["B_UavTerminal",nil,1000],
-						["20Rnd_556x45_UW_mag","Магазин Для Автоматического Электрошокера",10]
+						["B_UavTerminal",nil,1000]
 					]
 				];
 			};
@@ -60,8 +60,6 @@ switch(_shop) do
 			default {
 				["Hospital EMS Shop",
 					[
-						["DDOPP_1Rnd_X26",nil,0],
-						["DDOPP_X26",nil,0],
 						["ItemGPS",nil,100],
 						["Binocular",nil,150],
 						["ToolKit",nil,250],
@@ -87,7 +85,6 @@ switch(_shop) do
 			{
 				["Weapon shop",
 					[
-						["SUPER_flash",nil,100],
 						["stinger",nil,100],
 						["Stinger_missile",nil,100],
 						["RH_deagle","Пустынный Орел",500],
@@ -201,7 +198,6 @@ switch(_shop) do
 			{
 				["Altis Sergeant Officer Shop",
 					[
-						["HandGrenade_Stone","Светошумовая Граната",1700],
 						["optic_MRCO",nil,0],
 						["hlc_rifle_ak74","АК74",5000],
 						["hlc_rifle_aks74","АКС-74",5000],

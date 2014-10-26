@@ -18,6 +18,7 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "scripts\Anticheat.sqf";
 [] execVM "scripts\statusBar.sqf";
 [] execVM "scripts\D41_Wetter.sqf";
+[] execVM "scripts\teargas.sqf";
 
 [] spawn
 {

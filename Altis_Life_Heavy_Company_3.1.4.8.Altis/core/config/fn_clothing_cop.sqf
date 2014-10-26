@@ -63,7 +63,10 @@ switch (_filter) do
 			["G_Aviator",nil,75],
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["Mask_M40",nil,0],
+			["Mask_M40_OD",nil,0],
+			["Mask_M50",nil,0]
 		];
 	};
 	
