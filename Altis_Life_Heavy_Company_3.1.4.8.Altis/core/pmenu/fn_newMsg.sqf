@@ -33,9 +33,9 @@ switch(_type) do
 	{
 		if(isNUll life_smartphoneTarget) exitWith {hint format["Keine Person ausgwahlt!"];};
 		ctrlShow[88885, false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[88885, true];};
+		if(_msg == "") exitWith {hint "Вы должны написать сообщение что бы его отправить!";ctrlShow[88885, true];};
 		[[life_smartphoneTarget,_msg,player,0],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["You sent %1 a message: %2",name life_smartphoneTarget,_msg];	
+		hint format["Вы отправили %1 сообщение: %2",name life_smartphoneTarget,_msg];	
 		ctrlShow[88885, true];
 		closeDialog 88883;
 	};
@@ -44,10 +44,10 @@ switch(_type) do
 	{
 		if(({side _x == west} count playableUnits) == 0) exitWith {hint format["Полиция в настоящее время недоступна. Пожалуйста, повторите попытку позже."];};
 		ctrlShow[888895,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888895,true];};
+		if(_msg == "") exitWith {hint "Вы должны написать сообщение что бы его отправить!";ctrlShow[888895,true];};
 		[[ObjNull,_msg,player,1],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
 		_to = "The Police";
-		hint format["You sent %1 a message: %2",_to,_msg];
+		hint format["Вы отправили %1 сообщение: %2",_to,_msg];
 		ctrlShow[888895,true];
 		closeDialog 887890;
 	};
@@ -55,10 +55,10 @@ switch(_type) do
 	case 3:
 	{
 		ctrlShow[888896,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888896,true];};
+		if(_msg == "") exitWith {hint "Вы должны написать сообщение что бы его отправить!";ctrlShow[888896,true];};
 		[[ObjNull,_msg,player,2],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		_to = "The Admins";
-		hint format["You sent %1 a message: %2",_to,_msg];
+		_to = "Админам";
+		hint format["Вы отправили %1 сообщение: %2",_to,_msg];
 		ctrlShow[888896,true];
 		closeDialog 887890;
 	};
@@ -67,20 +67,20 @@ switch(_type) do
 	{
 		if(({side _x == independent} count playableUnits) == 0) exitWith {hint format["В настоящее время нет ни одного медика онлайн. Пожалуйста, попробуйте еще раз позже."];};
 		ctrlShow[888899,false];
-		if(_msg == "") exitWith {hint "You must enter a message to send!";ctrlShow[888899,true];};
+		if(_msg == "") exitWith {hint "Вы должны написать сообщение что бы его отправить!";ctrlShow[888899,true];};
 		[[ObjNull,_msg,player,3],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["You have sent a message to all EMS Units.",_msg];
+		hint format["Вы отправили сообщение медикам.",_msg];
 		ctrlShow[888899,true];
 		closeDialog 887890;
 	};
 	//adminToPerson
 	case 5:
 	{
-		if((call life_adminlevel) < 1) exitWith {hint "You are not an admin!";};
-		if(isNULL life_smartphoneTarget) exitWith {hint format["Keine Person ausgwahlt!"];};
-		if(_msg == "") exitWith {hint "You must enter a message to send!";};
+		if((call life_adminlevel) < 1) exitWith {hint "Вы не администратор!";};
+		if(isNULL life_smartphoneTarget) exitWith {hint format["Ни один человек не выбран!"];};
+		if(_msg == "") exitWith {hint "Вы должны написать сообщение что бы его отправить!";};
 		[[life_smartphoneTarget,_msg,player,4],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Admin Message Sent To: %1 - Message: %2",name life_smartphoneTarget,_msg];
+		hint format["Администратору отправлено: %1 - Сообщение: %2",name life_smartphoneTarget,_msg];
 		closeDialog 88883;
 	};
 	//emergencyloading
@@ -98,10 +98,10 @@ switch(_type) do
 	//adminMsgAll
 	case 7:
 	{
-		if((call life_adminlevel) < 1) exitWith {hint "You are not an admin!";};
-		if(_msg == "") exitWith {hint "You must enter a message to send!";};
+		if((call life_adminlevel) < 1) exitWith {hint "Вы не администратор!";};
+		if(_msg == "") exitWith {hint "Вы должны написать сообщение что бы его отправить!";};
 		[[ObjNull,_msg,player,5],"TON_fnc_handleMessages",false] spawn life_fnc_MP;
-		hint format["Admin Message Sent To All: %1",_msg];
+		hint format["Всем администраторам отправлено сообщение: %1",_msg];
 		closeDialog 887890;
 	};
 };
