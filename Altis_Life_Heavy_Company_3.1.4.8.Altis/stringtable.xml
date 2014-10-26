@@ -5830,37 +5830,37 @@
 	</Package>
 	<Package name="Smartphone">
 		<Key ID="STR_PM_Smartphone">
-			<Original>Smartphone</Original>
+			<Original>Смартфон</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_TITLE">
-			<Original>Smartphone Menu</Original>
+			<Original>Меню смартфона</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_PLAYERLISTTITLE">
-			<Original>Playerlist</Original>
+			<Original>Список игркоков</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_MESSAGETITLE">
-			<Original>Nachrichten  | VON | WANN</Original>
+			<Original>Сообщения  | VON | WANN</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_RANDOMTITLE">
-			<Original>Nachricht zum lesen auswählen</Original>
+			<Original>Выберите сообщение, чтобы прочитать</Original>
 		</Key>
 		<Key ID="STR_Global_Close">
-			<Original>Close</Original>
+			<Original>Закрыть</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_SCHREIBEN">
 			<Original>Schreiben</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NOTRUF">
-			<Original>Notruf</Original>
+			<Original>Экстренный вызов</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Absenden">
-			<Original>Absenden</Original>
+			<Original>Отправить</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_NACHRICHTTITLE">
-			<Original>Nachricht an:</Original>
+			<Original>Сообщение:</Original>
 		</Key>
 		<Key ID="STR_SMARTPHONE_Notruftitle">
-			<Original>NOTRUFE | Abuse führt zum BAN!</Original>
+			<Original>ВЫЗОВ ЭКСТРЕННОЙ СЛУЖБЫ | Злоупотребление приводят к БАНУ!</Original>
 		</Key>
 	</Package>
 </Project>
