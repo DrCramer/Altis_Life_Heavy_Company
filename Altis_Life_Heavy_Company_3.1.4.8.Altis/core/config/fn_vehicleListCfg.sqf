@@ -138,7 +138,7 @@ switch (_shop) do
 			["B_Heli_Light_01_F",450000],
 			["EMU_MH9",350000],
 			["EMU_MH9_camo",350000],
-			["Cha_Mi17_Ins",350000],
+			["Cha_Mi17_Ins",4000000],
 			["Cha_Mi17_TK_EP1",5000000]
 		];
 		
@@ -213,7 +213,7 @@ switch (_shop) do
 			["EMU_MH9_blk",260000],
 			["EMU_MH9_yel",260000],
 			["I_Heli_Transport_02_F",750000],
-			["Cha_Mi17_Civilian",1000000]
+			["Cha_Mi17_Civilian",5000000]
 		];
 	};
 	

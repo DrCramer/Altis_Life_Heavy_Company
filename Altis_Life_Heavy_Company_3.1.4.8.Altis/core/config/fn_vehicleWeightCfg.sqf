@@ -55,7 +55,7 @@ switch (_className) do
 	case "EMU_MH9_des": {90};
 	case "Cha_Mi17_CDF": {435};
 	case "Cha_Mi17_Civilian": {435};
-	case "Cha_Mi17_Ins": {435};
+	case "Cha_Mi17_Ins": {335};
 	case "Cha_Mi17_TK_EP1": {435};
 	case "DAR_ImpalaCivE": {60};
 	case "DAR_ImpalaCivG": {60};
