@@ -4018,6 +4018,11 @@
 			<Portuguese>Spike Strip</Portuguese>
 			<Russian>Лента шипов</Russian>
 		</Key>
+		<Key ID="STR_Item_Zipties">
+			<Original>Zipties</Original>
+			<English>Zipties</English>
+			<Russian>Хомут</Russian>
+		</Key>
 	</Package>
 	<Package name="Life_License">
 		<Key ID="STR_License_Driver">

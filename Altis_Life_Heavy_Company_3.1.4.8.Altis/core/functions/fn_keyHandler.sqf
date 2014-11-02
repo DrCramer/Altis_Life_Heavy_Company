@@ -106,11 +106,24 @@ switch (_code) do
 		{
 			[] call life_fnc_restrainAction;
 		};
-		
-		if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && alive cursorTarget && cursorTarget distance player < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+	};
+	
+	//Shift+O Zipties ( Civilians can restrain )
+	case 24:
+	{
+	  if(_shift) then {_handled = true;};
+	  if(_shift && playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+	  {
+	   if([false,"zipties",1] call life_fnc_handleInv) then
 		{
-			[] call life_fnc_restrainAction;
-		};
+		[] call life_fnc_restrainAction;
+		hint "You restrained him, use your interactionmenu for more options";
+	   }
+	   else
+	   {
+		hint "У вас нет хомута!";
+	   };
+	  };
 	};
 	
 	//Knock out, this is experimental and yeah...
