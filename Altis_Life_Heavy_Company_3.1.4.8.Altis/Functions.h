@@ -232,6 +232,7 @@ class Life_Client_Core
 		class stripDownPlayer {};
 		class UnLockCarSound {};
 		class LockCarSound {};
+		class emptyFuel {};
 	};
 	
 	class Network
