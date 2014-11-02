@@ -19,29 +19,31 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-			_ret pushBack ["U_Rangemaster","Cop Uniform",25];
-			_ret pushBack ["U_B_CombatUniform_mcam_tshirt",nil,350];
-			_ret pushBack ["U_B_survival_uniform",nil,1250];
-			_ret pushBack ["U_B_CombatUniform_mcam_worn",nil,550];
-			_ret set[count _ret,["U_BasicBody",nil,0]];
-			_ret set[count _ret,["TCG_PDCPL",nil,0]];
-			_ret set[count _ret,["TCG_TRPCPL",nil,0]];
-			_ret set[count _ret,["TCG_TRPSGT",nil,0]];
-			_ret set[count _ret,["TCG_SWAT",nil,0]];
-			_ret set[count _ret,["TCG_SERT",nil,0]];
+			_ret set[count _ret,["TCG_PDCPL","Police Uniform",10000]];
+			_ret set[count _ret,["TCG_TRPSGT","Trooper Uniform",10000]];
+			_ret set[count _ret,["TCG_PDAV","Pilot Uniform",10000]];
+			_ret set[count _ret,["JaKdo_uniform_black","Black Uniform",15000]];
+			_ret set[count _ret,["JaKdo_uniform_spec3","Special Uniform",15000]];
+			
+			if(__GETC__(life_adminlevel) > 4) then
+		{
+			_ret set[count _ret,["JaKdo_uniform_Us3ctt","Desert Uniform",0]];
+		};
+			
 	};
 	
 	//Hats
 	case 1:
 	{
-			_ret set[count _ret,["cap_blk",nil,0]];
-			_ret set[count _ret,["cap_head_blk",nil,0]];
-			_ret set[count _ret,["boonie_blk",nil,0]];
-			_ret pushBack ["H_HelmetB_plain_mcamo",nil,75];
-			_ret pushBack ["H_Booniehat_mcamo",nil,120];
-			_ret pushBack ["H_MilCap_mcamo",nil,100];
-			_ret set[count _ret,["TCG_swathelmet",nil,0]];
-			_ret set[count _ret,["TCG_serthelmet",nil,0]];
+			_ret set[count _ret,["H_Cap_police","Police Cap",100]];
+			_ret set[count _ret,["cap_blk","Black Cap",100]];
+			_ret set[count _ret,["JaKdo_AUT_PASGTHelmet_Black1","Black Helmet",1000]];
+			
+			if(__GETC__(life_adminlevel) > 4) then
+		{
+			_ret set[count _ret,["JaKdo_AUT_PASGTHelmet_tan1","Desert Helmet",0]];
+		};
+			
 	};
 	
 	//Glasses
@@ -73,21 +75,16 @@ switch (_filter) do
 	//Vest
 	case 3:
 	{
-			_ret pushBack ["V_Rangemaster_belt",nil,800];	
-			_ret pushBack ["V_PlateCarrier2_rgr",nil,1500];
-			_ret set[count _ret,["EMU_Tacticalvest_kh",0]];
-			_ret set[count _ret,["EMU_V_hostage",0]];
-			_ret set[count _ret,["EMU_V_PlateCarrier1_blk",nil,0]];
-			_ret set[count _ret,["EMU_V_Harness_blk",nil,0]];
-			_ret set[count _ret,["TCG_troopervest1",nil,0]];
-			_ret set[count _ret,["TCG_policevest1",nil,0]];
-			_ret set[count _ret,["TCG_swatvest1",nil,0]];
-			_ret set[count _ret,["TCG_swatvest3",nil,0]];
-			_ret set[count _ret,["TCG_sertvest1",nil,0]];
-			_ret set[count _ret,["TCG_sertvest3",nil,0]];
-			_ret set[count _ret,["V_PlateCarrierGL_rgr",nil,0]];
-			_ret set[count _ret,["V_TacVest_khk",nil,0]];	
-
+			_ret pushBack ["V_TacVest_blk_POLICE",nil,800];	
+			_ret pushBack ["TCG_policevest1",nil,1500];
+			_ret pushBack ["TCG_troopervest1",nil,1500];
+			
+			if(__GETC__(life_adminlevel) > 4) then
+		{
+			_ret set[count _ret,["JaKdo_vest_Majordesert","Desert Vest",0]];
+			_ret set[count _ret,["EMU_V_hostage","Black Vest",0]];
+		};
+			
 	};
 	
 	//Backpacks
@@ -95,20 +92,10 @@ switch (_filter) do
 	{
 		_ret =
 		[
-			["EMU_plecak_tor_blk",nil,0],
-			["EMU_plecak_comp_blk",nil,0],
-			["EMU_plecak_fast_blk",nil,0],
-			["EMU_plecak_kr_high",nil,0],
-			["EMU_plecak_kr_mand",nil,0],
-			["EMU_plecak_kr_nom",nil,0],
-			["EMU_plecak_kr_typh",nil,0],
-			["EMU_plecak_kr_yet",nil,0],
-			["B_Kitbag_cbr",nil,800],
-			["B_FieldPack_cbr",nil,500],
-			["B_AssaultPack_cbr",nil,700],
-			["B_Bergen_sgg",nil,2500],
-			["B_Carryall_cbr",nil,3500],
-			["B_UAV_01_backpack_F",nil,4500]
+			["EMU_plecak_fast_blk",nil,1000],
+			["B_Kitbag_cbr",nil,1000],
+			["JaKdo_ruck_oliv",nil,1500],
+			["B_UAV_01_backpack_F",nil,4500]	
 		];
 	};
 };
