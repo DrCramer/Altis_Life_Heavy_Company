@@ -2698,7 +2698,7 @@
 			<French>Les billets ne peuvent être plus de $ 200,000!</French>
 			<Italian>La multa non può essere più di €200.000!</Italian>
 			<Portuguese>A multa não pode ser maior que R$200.000!</Portuguese>
-			<Russian>Штраф не может превышать $200,000!</Russian>
+			<Russian>Штраф не может превышать $999,999!</Russian>
 		</Key>
 		<Key ID="STR_Cop_TicketGive">
 			<Original>%1 gave a ticket of $%2 to %3</Original>
