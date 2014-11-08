@@ -3637,7 +3637,7 @@
 			<French>Graine de pavot</French>
 			<Italian>Eroina non processata</Italian>
 			<Portuguese>Heroína não Processada</Portuguese>
-			<Russian>Героин необработанный</Russian>
+			<Russian>Необработанный героин</Russian>
 		</Key>
 		<Key ID="STR_Item_HeroinP">
 			<Original>Processed Heroin</Original>
@@ -3646,7 +3646,7 @@
 			<French>Héroine</French>
 			<Italian>Eroina processata</Italian>
 			<Portuguese>Heroína Processada</Portuguese>
-			<Russian>Героин обработанный</Russian>
+			<Russian>Обработанный героин</Russian>
 		</Key>
 		<Key ID="STR_Item_Marijuana">
 			<Original>Marijuana</Original>
