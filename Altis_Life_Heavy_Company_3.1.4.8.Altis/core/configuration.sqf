@@ -45,7 +45,7 @@ __CONST__(life_revive_fee,250); //Fee for players to pay when revived.
 __CONST__(life_houseLimit,5); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
 
 //Gang related stuff?
-__CONST__(life_gangPrice,2000000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
+__CONST__(life_gangPrice,10000000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
 __CONST__(life_gangUpgradeBase,500000); //MASDASDASD
 __CONST__(life_gangUpgradeMultipler,2.5); //BLAH
 
