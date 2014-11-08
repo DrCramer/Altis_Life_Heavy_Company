@@ -29,12 +29,20 @@ switch (_side) do
 	case civilian:
 	{
 		_return = [
-			["civ_spawn_1","Кавала","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_2","Пиргос","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_1","Кавала (ЗЗ)","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_2","Пиргос (ЗЗ)","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_3","Атира","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","София","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_5","Селакано","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["civ_spawn_4","София (ЗЗ)","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_5","Селакано (ЗЗ)","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
+		
+		if(license_civ_rebel && playerSide == civilian) then {
+			_return = [
+						["civ_spawn_3","Атира","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+						["reb_spawn_1","Город повстанцев","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+						["reb_spawn_2","Пост повстанцев","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			];
+		};
 		
 		if(count life_houses > 0) then {
 			{
