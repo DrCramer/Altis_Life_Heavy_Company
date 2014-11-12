@@ -201,6 +201,7 @@ class Life_Client_Core
 		class simDisable {};
 		class keyHandler {};
 		class dropItems {};
+		class dropItemsFloor {};
 		class handleDamage {};
 		class numberText {};
 		class handleItem {};

@@ -185,7 +185,7 @@ class playerSettings {
 			
 			text = "$STR_Global_Remove";
 			colorBackground[] = {0.039, 0.196, 0.51, 0.5};
-			onButtonClick = "[] call life_fnc_removeItem;";
+			onButtonClick = "[player,false] spawn life_fnc_dropItemsFloor;";
 			
 			x = 0.475;
 			y = 0.70;
