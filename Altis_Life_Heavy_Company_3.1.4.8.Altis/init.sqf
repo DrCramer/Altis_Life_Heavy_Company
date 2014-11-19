@@ -28,4 +28,6 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 
 StartProgress = true;
 
+onPlayerDisconnected { [_id, _name, _uid] call compile preProcessFileLineNumbers "core\functions\fn_onPlayerDisconnect.sqf" };
+
 "BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};
