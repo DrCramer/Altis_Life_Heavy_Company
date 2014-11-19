@@ -40,7 +40,7 @@ switch (_side) do
 			_return = [
 						["civ_spawn_3","Атира","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 						["reb_spawn_1","Город повстанцев","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-						["reb_spawn_2","Пост повстанцев","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+						["reb_spawn_2","Блок-пост повстанцев","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 			];
 		};
 		
