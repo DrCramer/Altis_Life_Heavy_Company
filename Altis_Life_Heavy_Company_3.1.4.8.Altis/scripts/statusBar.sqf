@@ -6,14 +6,12 @@ _rscLayer cutRsc["statusBar","PLAIN"];
 
 [] spawn {
 	sleep 5;
-	_statusText = "";
 	_counter = 180;
 	_timeSinceLastUpdate = 0;
 	while {true} do
 	{
 		sleep 1;
 		_counter = _counter - 1;
-		_statusText = "Heavy Company";
-		((uiNamespace getVariable "statusBar")displayCtrl 1000)ctrlSetText format["FPS: %1 | Копы: %2 | Гражд: %3 | Медики: %4 | НАЛ: %5 | БАНК: %6 | TS3:HEAVY-COMPANY.NO-IP.ORG", round diag_fps, west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits, [life_cash] call life_fnc_numberText,[life_atmcash] call life_fnc_numberText, _statusText, _counter];
+		((uiNamespace getVariable "statusBar")displayCtrl 1000)ctrlSetText format["Heavy Company | Копы: %1 | Гражд: %2 | Медики: %3 | TS3:HEAVY-COMPANY.NO-IP.ORG", west countSide playableUnits, civilian countSide playableUnits, independent countSide playableUnits, _counter];
 	};
 };
