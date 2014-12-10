@@ -3504,6 +3504,7 @@
 			<French>Il n'y a pas d'hélicopter sur l'héliport</French>
 			<Italian>Non c'è alcun elicottero sulla piazzola d'atterraggio</Italian>
 			<Portuguese>Não existe uma aeronave no heliponto!</Portuguese>
+			<Russian>Вертолет отсутствует</Russian>
 		</Key>
 		<Key ID="STR_Serive_Chopper_NotEnough">
 			<Original>You need $1,000 to service your chopper</Original>
@@ -3512,6 +3513,7 @@
 			<French>Vous devez $1000 pour l'entretien de votre hélico</French>
 			<Italian>Necessiti di €1.000 per fare manutenzione al tuo elicottero</Italian>
 			<Portuguese>Você precisa de R$1.000 para reparar a sua aeronave</Portuguese>
+			<Russian>Вам необходима $1.000 для обслуживания вертолета</Russian>
 		</Key>
 		<Key ID="STR_Service_Chopper_Servicing">
 			<Original>Servicing Chopper</Original>
@@ -3520,7 +3522,7 @@
 			<French>Entretien</French>
 			<Italian>Manutenendo Elicottero</Italian>
 			<Portuguese>Reparando aeronave</Portuguese>
-			<Russian>Обслуживание вертолетов</Russian>
+			<Russian>Обслуживание вертолетa</Russian>
 		</Key>
 		<Key ID="STR_Service_Chopper_Missing">
 			<Original>The vehicle is no longer alive or on the helipad!</Original>
